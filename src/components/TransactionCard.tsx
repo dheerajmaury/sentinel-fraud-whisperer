@@ -1,9 +1,9 @@
 
 import { useState } from "react";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import ScoreGauge from "@/components/ScoreGauge";
-import { Separator } from "@/components/ui/separator";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import ScoreGauge from "./ScoreGauge";
+import { Separator } from "../components/ui/separator";
 import { toast } from "sonner";
 import { AlertTriangle, CheckCircle, XCircle, FileText } from "lucide-react";
 

@@ -1,6 +1,6 @@
 
-import { Button } from "@/components/ui/button";
-import { logout } from "@/utils/authUtils";
+import { Button } from "../components/ui/button";
+import { logout } from "../utils/authUtils";
 import { Shield, LogOut, Bell } from "lucide-react";
 
 const Navbar = () => {

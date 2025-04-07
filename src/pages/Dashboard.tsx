@@ -1,16 +1,16 @@
 
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "@/components/Navbar";
-import TransactionCard, { Transaction } from "@/components/TransactionCard";
-import ScoreGauge from "@/components/ScoreGauge";
-import FeedbackForm from "@/components/FeedbackForm";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Separator } from "@/components/ui/separator";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { isAuthenticated } from "@/utils/authUtils";
+import Navbar from "../components/Navbar";
+import TransactionCard, { Transaction } from "../components/TransactionCard";
+import ScoreGauge from "../components/ScoreGauge";
+import FeedbackForm from "../components/FeedbackForm";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
+import { Button } from "../components/ui/button";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";
+import { Separator } from "../components/ui/separator";
+import { Alert, AlertDescription, AlertTitle } from "../components/ui/alert";
+import { isAuthenticated } from "../utils/authUtils";
 import { toast } from "sonner";
 import {
   FileDown,
