@@ -60,14 +60,15 @@
   background: linear-gradient(135deg, rgba(0, 24, 43, 0.9) 0%, rgba(0, 47, 85, 0.9) 100%);
 }
 
+/* Update these class definitions to use direct color values instead of theme function */
 .fraud-risk-low {
-  color: theme('colors.fraud.low');
+  color: #38bdf8;
 }
 
 .fraud-risk-medium {
-  color: theme('colors.fraud.medium');
+  color: #fb923c;
 }
 
 .fraud-risk-high {
-  color: theme('colors.fraud.high');
+  color: #ef4444;
 }
