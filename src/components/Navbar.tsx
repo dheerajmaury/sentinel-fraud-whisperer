@@ -1,5 +1,5 @@
 
-import { Button } from "./ui/button"; // Changed from "../components/ui/button"
+import { Button } from "@/components/ui/button";
 import { logout } from "../utils/authUtils";
 import { Shield, LogOut, Bell } from "lucide-react";
 
