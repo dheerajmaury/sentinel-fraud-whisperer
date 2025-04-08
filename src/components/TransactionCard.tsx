@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -6,6 +5,7 @@ import ScoreGauge from "./ScoreGauge";
 import { Separator } from "@/components/ui/separator";
 import { toast } from "sonner";
 import { AlertTriangle, CheckCircle, XCircle, FileText } from "lucide-react";
+import { apiFeedback } from "@/utils/apiUtils";
 
 type TransactionType = "wire" | "card" | "atm" | "online" | "pos";
 
@@ -27,6 +27,7 @@ interface TransactionCardProps {
 const TransactionCard = ({ transaction, onFeedbackSubmit }: TransactionCardProps) => {
   const [showFeedback, setShowFeedback] = useState(false);
   const [feedback, setFeedback] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   
   const formatDate = (timestamp: string) => {
     return new Date(timestamp).toLocaleString();
@@ -39,20 +40,43 @@ const TransactionCard = ({ transaction, onFeedbackSubmit }: TransactionCardProps
     }).format(amount);
   };
   
-  const handleFeedback = (isCorrect: boolean) => {
+  const handleFeedback = async (isCorrect: boolean) => {
     if (isCorrect) {
-      toast.success("Fraud prediction confirmed");
-      onFeedbackSubmit(transaction.id, true);
+      setIsSubmitting(true);
+      try {
+        await apiFeedback.submitTransactionFeedback(transaction.id, true);
+        toast.success("Fraud prediction confirmed");
+        onFeedbackSubmit(transaction.id, true);
+      } catch (error) {
+        console.error("Failed to submit feedback:", error);
+        toast.error("Failed to submit feedback. Please try again.");
+      } finally {
+        setIsSubmitting(false);
+      }
     } else {
       setShowFeedback(true);
     }
   };
   
-  const submitFeedback = () => {
-    toast.success("Feedback submitted successfully");
-    onFeedbackSubmit(transaction.id, false, feedback);
-    setShowFeedback(false);
-    setFeedback("");
+  const submitFeedback = async () => {
+    if (!feedback.trim()) {
+      toast.error("Please provide feedback details");
+      return;
+    }
+    
+    setIsSubmitting(true);
+    try {
+      await apiFeedback.submitTransactionFeedback(transaction.id, false, feedback);
+      toast.success("Feedback submitted successfully");
+      onFeedbackSubmit(transaction.id, false, feedback);
+      setShowFeedback(false);
+      setFeedback("");
+    } catch (error) {
+      console.error("Failed to submit feedback:", error);
+      toast.error("Failed to submit feedback. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -107,12 +131,14 @@ const TransactionCard = ({ transaction, onFeedbackSubmit }: TransactionCardProps
               variant="outline" 
               className="w-1/2"
               onClick={() => handleFeedback(false)}
+              disabled={isSubmitting}
             >
               <XCircle className="h-4 w-4 mr-1" /> Incorrect
             </Button>
             <Button 
               className="w-1/2"
               onClick={() => handleFeedback(true)}
+              disabled={isSubmitting}
             >
               <CheckCircle className="h-4 w-4 mr-1" /> Correct
             </Button>
@@ -130,14 +156,16 @@ const TransactionCard = ({ transaction, onFeedbackSubmit }: TransactionCardProps
                 variant="ghost" 
                 size="sm"
                 onClick={() => setShowFeedback(false)}
+                disabled={isSubmitting}
               >
                 Cancel
               </Button>
               <Button 
                 size="sm"
                 onClick={submitFeedback}
+                disabled={isSubmitting}
               >
-                Submit Feedback
+                {isSubmitting ? "Submitting..." : "Submit Feedback"}
               </Button>
             </div>
           </div>

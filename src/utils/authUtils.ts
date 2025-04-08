@@ -1,6 +1,5 @@
 
-// Simple authentication logic for demo purposes
-// In a real app, this would connect to a backend service
+import { apiAuth } from "./apiUtils";
 
 // Check if user is authenticated
 export const isAuthenticated = (): boolean => {
@@ -8,16 +7,19 @@ export const isAuthenticated = (): boolean => {
 };
 
 // Login function
-export const login = (username: string, password: string): Promise<boolean> => {
-  return new Promise((resolve) => {
-    // For demo, we'll accept "admin" with password "admin123"
-    if (username === 'admin' && password === 'admin123') {
+export const login = async (username: string, password: string): Promise<boolean> => {
+  try {
+    const response = await apiAuth.login(username, password);
+    
+    if (response.success) {
       localStorage.setItem('sentinel-auth', 'true');
-      resolve(true);
-    } else {
-      resolve(false);
+      return true;
     }
-  });
+    return false;
+  } catch (error) {
+    console.error("Login error:", error);
+    return false;
+  }
 };
 
 // Logout function

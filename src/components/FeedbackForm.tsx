@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { toast } from "sonner";
 import { MessageSquare } from "lucide-react";
+import { apiFeedback } from "@/utils/apiUtils";
 
 interface FeedbackFormProps {
   onClose: () => void;
@@ -13,18 +14,26 @@ interface FeedbackFormProps {
 const FeedbackForm = ({ onClose }: FeedbackFormProps) => {
   const [feedback, setFeedback] = useState("");
   const [category, setCategory] = useState("false_positive");
+  const [isSubmitting, setIsSubmitting] = useState(false);
   
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!feedback.trim()) {
       toast.error("Please provide feedback details");
       return;
     }
     
-    // In a real app, we would submit this to an API
-    console.log("Feedback submitted:", { feedback, category });
-    toast.success("Feedback submitted successfully");
-    onClose();
+    setIsSubmitting(true);
+    try {
+      await apiFeedback.submitSystemFeedback(category, feedback);
+      toast.success("Feedback submitted successfully");
+      onClose();
+    } catch (error) {
+      console.error("Failed to submit feedback:", error);
+      toast.error("Failed to submit feedback. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
   
   return (
@@ -103,8 +112,8 @@ const FeedbackForm = ({ onClose }: FeedbackFormProps) => {
           <Button type="button" variant="outline" onClick={onClose}>
             Cancel
           </Button>
-          <Button type="submit">
-            Submit Feedback
+          <Button type="submit" disabled={isSubmitting}>
+            {isSubmitting ? "Submitting..." : "Submit Feedback"}
           </Button>
         </CardFooter>
       </form>
