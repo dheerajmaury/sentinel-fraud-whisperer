@@ -19,6 +19,9 @@ async function fetchAPI<T>(
         "Content-Type": "application/json",
         ...options.headers,
       },
+      // Important for CORS preflight to work correctly
+      credentials: 'omit', 
+      mode: 'cors',
     });
 
     console.log(`API response status: ${response.status}`);
