@@ -1,33 +1,19 @@
 
-import { apiAuth } from "./apiUtils";
+// Modified auth utils that skips authentication
 
-// Check if user is authenticated
+// Always return true for authentication check
 export const isAuthenticated = (): boolean => {
-  return localStorage.getItem('sentinel-auth') === 'true';
+  return true;
 };
 
-// Login function
+// No-op login function
 export const login = async (username: string, password: string): Promise<boolean> => {
-  try {
-    // Make sure we're actually reaching the FastAPI backend
-    console.log("Attempting login with:", { username });
-    
-    const response = await apiAuth.login(username, password);
-    console.log("Login response:", response);
-    
-    if (response && response.success) {
-      localStorage.setItem('sentinel-auth', 'true');
-      return true;
-    }
-    return false;
-  } catch (error) {
-    console.error("Login error:", error);
-    return false;
-  }
+  console.log("Login bypassed, automatically authenticated");
+  return true;
 };
 
-// Logout function
+// No-op logout function
 export const logout = (): void => {
-  localStorage.removeItem('sentinel-auth');
-  window.location.href = '/';
+  console.log("Logout bypassed, remaining authenticated");
+  // Don't redirect since we're always authenticated
 };

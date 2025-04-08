@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import TransactionCard, { Transaction } from "../components/TransactionCard";
 import ScoreGauge from "../components/ScoreGauge";
@@ -9,7 +8,6 @@ import { Button } from "../components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";
 import { Separator } from "../components/ui/separator";
 import { Alert, AlertDescription, AlertTitle } from "../components/ui/alert";
-import { isAuthenticated } from "../utils/authUtils";
 import { toast } from "sonner";
 import { apiTransactions, apiFeedback } from "../utils/apiUtils";
 import {
@@ -29,14 +27,6 @@ const Dashboard = () => {
   const [feedbackVisible, setFeedbackVisible] = useState(false);
   const [filter, setFilter] = useState<"all" | "high" | "medium" | "low">("all");
   const [refreshing, setRefreshing] = useState(false);
-  const navigate = useNavigate();
-
-  // Check authentication
-  useEffect(() => {
-    if (!isAuthenticated()) {
-      navigate("/login");
-    }
-  }, [navigate]);
 
   // Fetch transactions
   useEffect(() => {

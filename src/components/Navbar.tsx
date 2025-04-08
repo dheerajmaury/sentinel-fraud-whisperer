@@ -1,7 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { logout } from "../utils/authUtils";
-import { Shield, LogOut, Bell } from "lucide-react";
+import { Shield, Bell } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -16,16 +15,7 @@ const Navbar = () => {
           <Button variant="ghost" size="icon" className="mr-2">
             <Bell className="h-5 w-5" />
           </Button>
-          
-          <Button 
-            variant="secondary" 
-            size="sm" 
-            className="gap-2"
-            onClick={() => logout()}
-          >
-            <LogOut className="h-4 w-4" />
-            <span>Logout</span>
-          </Button>
+          {/* Removed logout button */}
         </div>
       </div>
     </header>
