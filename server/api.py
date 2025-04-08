@@ -107,15 +107,23 @@ class LoginData(BaseModel):
 
 class LoginResponse(BaseModel):
     success: bool
-    message: str = None
+    message: Optional[str] = None
 
 # Auth endpoints
 @app.post("/api/auth/login", response_model=LoginResponse)
 async def login(data: LoginData):
+    print(f"Login attempt: username={data.username}")  # For debugging
     user = DEMO_USERS.get(data.username)
     if user and user["password"] == data.password:
+        print("Login successful")  # For debugging
         return {"success": True}
+    print("Login failed")  # For debugging
     return {"success": False, "message": "Invalid credentials"}
+
+# Health check endpoint
+@app.get("/api/health")
+async def health_check():
+    return {"status": "ok", "timestamp": datetime.now().isoformat()}
 
 # Transaction endpoints
 @app.get("/api/transactions", response_model=List[Transaction])

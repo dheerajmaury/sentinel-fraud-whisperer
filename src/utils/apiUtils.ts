@@ -10,20 +10,32 @@ async function fetchAPI<T>(
 ): Promise<T> {
   const url = `${API_URL}${endpoint}`;
   
-  const response = await fetch(url, {
-    ...options,
-    headers: {
-      "Content-Type": "application/json",
-      ...options.headers,
-    },
-  });
+  console.log(`Making API request to: ${url}`);
+  
+  try {
+    const response = await fetch(url, {
+      ...options,
+      headers: {
+        "Content-Type": "application/json",
+        ...options.headers,
+      },
+    });
 
-  if (!response.ok) {
-    const error = await response.text();
-    throw new Error(error || `API error: ${response.status}`);
+    console.log(`API response status: ${response.status}`);
+    
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error(`API error: ${response.status}`, errorText);
+      throw new Error(errorText || `API error: ${response.status}`);
+    }
+
+    const data = await response.json();
+    console.log("API response data:", data);
+    return data;
+  } catch (error) {
+    console.error("API request failed:", error);
+    throw error;
   }
-
-  return response.json();
 }
 
 // Authentication
