@@ -1,0 +1,3584 @@
+[
+  {
+    "id":"a2f11717-9efb-42fa-9f33-f47b65e61e3d",
+    "timestamp":"2025-03-15T01:13:34.366395",
+    "amount":52262.92,
+    "accountNumber":"WKXL62588153714732",
+    "transactionType":"withdrawal",
+    "score":0.89,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"3c75c55d-dea4-404a-9f54-5bee543d0981",
+    "timestamp":"2025-01-03T20:24:43.546513",
+    "amount":1960.59,
+    "accountNumber":"FBIP11671902294131",
+    "transactionType":"deposit",
+    "score":0.71,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"bb378d7f-aed3-4ffc-a8e5-8080fa911b6c",
+    "timestamp":"2025-02-21T00:05:07.909632",
+    "amount":717.49,
+    "accountNumber":"FBIP11671902294131",
+    "transactionType":"withdrawal",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"163c31b8-4cbf-4fea-ad93-f66473b4df74",
+    "timestamp":"2025-02-27T18:46:03.080004",
+    "amount":1877.15,
+    "accountNumber":"FBIP11671902294131",
+    "transactionType":"transfer",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"e5f96753-2de9-4a81-b469-33de03d0d218",
+    "timestamp":"2025-01-01T19:08:03.475120",
+    "amount":1987.87,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"purchase",
+    "score":0.92,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"c6c7db34-bc2f-4a08-9543-757b3c385633",
+    "timestamp":"2025-01-09T07:23:21.674818",
+    "amount":1564.92,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"deposit",
+    "score":0.9,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"55ed5822-e72e-47d9-a8c3-4ebf30957a5a",
+    "timestamp":"2025-01-09T10:03:23.471367",
+    "amount":1718.08,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"purchase",
+    "score":0.97,
+    "reason":"Closing balance < \u20b91000; Foreign transaction from high-risk country"
+  },
+  {
+    "id":"9234a6e6-0257-4834-b130-e5d9e62fb6c2",
+    "timestamp":"2025-01-12T05:17:39.915320",
+    "amount":4007.32,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"withdrawal",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"59ab587e-f266-4a56-985d-2051f30d0a4e",
+    "timestamp":"2025-02-05T07:59:21.158736",
+    "amount":502.98,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"withdrawal",
+    "score":0.83,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"54ea7ef8-58e6-4281-af90-b8510f35af01",
+    "timestamp":"2025-02-18T14:58:40.066056",
+    "amount":582.22,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"withdrawal",
+    "score":0.71,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"86d2c686-1afe-4233-ac0a-d8059e694fe0",
+    "timestamp":"2025-02-19T19:46:59.903860",
+    "amount":1539.06,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"purchase",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f0ed4eee-6d2c-4255-bc89-d24dfa3d08d2",
+    "timestamp":"2025-02-21T16:08:03.099550",
+    "amount":573.71,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"purchase",
+    "score":0.85,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"4ecdae66-26f7-4390-b877-052294e6cf93",
+    "timestamp":"2025-02-28T05:05:37.960497",
+    "amount":1100.45,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"payment",
+    "score":0.71,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"ca4cce30-ce29-4928-bc3b-b421fbdd7b6a",
+    "timestamp":"2025-03-09T15:55:20.999017",
+    "amount":1735.04,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"payment",
+    "score":0.76,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"154949cd-10ba-4009-9caf-673fa70e3842",
+    "timestamp":"2025-03-10T06:33:53.323988",
+    "amount":516.9,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"deposit",
+    "score":0.89,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"92279f93-4dc7-4a04-a817-5f6ca347661f",
+    "timestamp":"2025-03-17T16:06:11.520572",
+    "amount":1667.56,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"payment",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f77faa11-a144-43f6-951d-371779650284",
+    "timestamp":"2025-03-25T12:14:59.760700",
+    "amount":218.5,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"transfer",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"41e50046-0980-4cac-a64c-75c9ba42298f",
+    "timestamp":"2025-03-27T22:34:38.121743",
+    "amount":1699.44,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"transfer",
+    "score":0.88,
+    "reason":"Closing balance < \u20b91000; Foreign transaction from high-risk country"
+  },
+  {
+    "id":"28d939a9-2d08-4820-95d9-e35bf7d02d2a",
+    "timestamp":"2025-04-01T00:35:43.881508",
+    "amount":492.74,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"purchase",
+    "score":0.94,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"34a5c253-41e1-4f4e-8d97-7429d307e31c",
+    "timestamp":"2025-04-07T01:45:53.346711",
+    "amount":1433.25,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"withdrawal",
+    "score":0.7,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"c9ea6430-7272-4c9e-b858-dd87483cc0b4",
+    "timestamp":"2025-01-18T14:58:23.334894",
+    "amount":1962.76,
+    "accountNumber":"LHUG94210470952145",
+    "transactionType":"transfer",
+    "score":0.94,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"de66c3da-4509-4f53-92db-dcd836594fe2",
+    "timestamp":"2025-01-31T06:01:01.251984",
+    "amount":1961.65,
+    "accountNumber":"ECPZ45961586578091",
+    "transactionType":"transfer",
+    "score":0.91,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"1f22bf9c-91c2-4ba9-b307-c1e38c655909",
+    "timestamp":"2025-01-12T15:19:23.624188",
+    "amount":1954.77,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"payment",
+    "score":0.8,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"113936b5-04a9-49a1-adae-aa9daa24e6ef",
+    "timestamp":"2025-02-07T01:48:02.557306",
+    "amount":1120.39,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"withdrawal",
+    "score":0.75,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f702dded-2424-4998-867e-dd96239751c2",
+    "timestamp":"2025-03-09T12:27:22.236753",
+    "amount":74143.76,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"withdrawal",
+    "score":0.99,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"a6d8e746-da50-43f3-ab84-1ed265785089",
+    "timestamp":"2025-03-12T09:13:15.434179",
+    "amount":1718.13,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"withdrawal",
+    "score":0.8,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"4cab6f9a-9485-4cb3-8ea3-acbe759f0812",
+    "timestamp":"2025-01-08T12:50:06.200136",
+    "amount":1877.15,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"transfer",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"508183f6-e590-44da-b55f-3513e30f9618",
+    "timestamp":"2025-01-10T12:45:05.959015",
+    "amount":800.47,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"deposit",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"b826f82c-1373-4e03-a5ef-eb80ac382ae0",
+    "timestamp":"2025-01-12T05:34:15.908447",
+    "amount":1523.65,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"withdrawal",
+    "score":0.95,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"06ab0a1c-b599-4c25-92fc-b3bd4bb0a586",
+    "timestamp":"2025-01-16T00:55:25.394883",
+    "amount":180.0,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"purchase",
+    "score":0.88,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"8b61c6d0-7a90-4706-993d-590d55e935af",
+    "timestamp":"2025-02-04T10:01:04.713033",
+    "amount":1807.29,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"purchase",
+    "score":0.94,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"4d4d1cf0-0c52-4170-bbe5-bf0eaf3fd89e",
+    "timestamp":"2025-02-06T00:39:24.594305",
+    "amount":1157.95,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"purchase",
+    "score":0.92,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"453da21f-a2fc-40b1-bb27-d06647378df8",
+    "timestamp":"2025-02-07T07:42:06.759127",
+    "amount":574.4,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"withdrawal",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"a5211a8f-4b9c-4e8f-8e1b-9245087e7fb8",
+    "timestamp":"2025-02-10T02:30:17.524538",
+    "amount":71068.85,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"purchase",
+    "score":0.99,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"97ad45a3-1b69-4a34-b9d5-b6029e9e042d",
+    "timestamp":"2025-02-13T14:39:04.930361",
+    "amount":1226.53,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"deposit",
+    "score":0.81,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"ae5cbe40-b750-43dc-bfb6-989794ee8681",
+    "timestamp":"2025-02-14T02:47:27.108189",
+    "amount":162.64,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"deposit",
+    "score":0.87,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"ecc0a79c-9cbd-403f-85ff-2feda97dadc9",
+    "timestamp":"2025-02-15T16:44:27.274905",
+    "amount":1915.0,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"withdrawal",
+    "score":0.95,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"dfbf543f-914a-4eff-977e-a6ae0379b877",
+    "timestamp":"2025-02-18T17:21:24.388044",
+    "amount":1295.76,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"transfer",
+    "score":0.89,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f023c927-9c09-42bb-b396-b900e42f01e8",
+    "timestamp":"2025-02-20T03:40:20.294755",
+    "amount":1520.19,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"deposit",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9d206bcb-ad42-4258-a1da-f949571303ff",
+    "timestamp":"2025-02-27T05:34:58.069038",
+    "amount":154.72,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"payment",
+    "score":0.87,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2c41a9b7-70a6-4fad-81a0-7f77116cb02e",
+    "timestamp":"2025-03-05T17:17:53.282058",
+    "amount":1080.88,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"payment",
+    "score":0.91,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"52526f50-7e79-45f1-a8ca-7e45735dccb3",
+    "timestamp":"2025-03-12T17:08:02.290122",
+    "amount":1296.51,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"transfer",
+    "score":0.71,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9a617ebd-15ab-4baa-8630-5b8a764f054b",
+    "timestamp":"2025-03-19T15:22:12.913211",
+    "amount":1139.42,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"withdrawal",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"379a885a-c51e-4059-9b92-a1ceb6a9d3d8",
+    "timestamp":"2025-03-27T02:04:27.631727",
+    "amount":1696.54,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"purchase",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"fa6fc92c-fa83-46f1-850f-dcb2393c662f",
+    "timestamp":"2025-03-27T06:45:49.794468",
+    "amount":221.6,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"transfer",
+    "score":0.72,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"5b71235c-e7ae-48d4-a531-6a3be6b5068e",
+    "timestamp":"2025-03-28T12:42:55.210310",
+    "amount":768.55,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"purchase",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"e07f21fb-15b3-46fe-b77c-8f86212f3592",
+    "timestamp":"2025-03-30T07:11:05.761902",
+    "amount":778.12,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"payment",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"bf3664ae-c2bd-42c6-ad1a-399ca90ec4e0",
+    "timestamp":"2025-03-31T02:58:58.148212",
+    "amount":1211.99,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"withdrawal",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"256a5f4b-ad65-412d-81bd-26b7522dd1e7",
+    "timestamp":"2025-04-01T00:41:48.961101",
+    "amount":245.87,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"deposit",
+    "score":0.89,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"822b638e-d415-4124-ad77-5e93c874fba0",
+    "timestamp":"2025-04-08T03:51:28.295765",
+    "amount":1125.49,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"Unusual Transaction",
+    "score":0.81,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"5bb83763-0da6-4179-9755-0e6092012d68",
+    "timestamp":"2025-01-13T19:20:44.451469",
+    "amount":458.89,
+    "accountNumber":"FSNU71756551256746",
+    "transactionType":"payment",
+    "score":0.81,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"e58d747f-54e0-4c00-a0cb-12aadb2f5e75",
+    "timestamp":"2025-01-24T04:39:08.676770",
+    "amount":1950.29,
+    "accountNumber":"FSNU71756551256746",
+    "transactionType":"transfer",
+    "score":0.76,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"478df2b5-20ef-4cac-bf9f-b0f4e44ea45e",
+    "timestamp":"2025-04-09T03:38:06.388109",
+    "amount":52458.04,
+    "accountNumber":"FSNU71756551256746",
+    "transactionType":"withdrawal",
+    "score":0.78,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"a6f45315-4562-416e-92fc-4d27caf4727f",
+    "timestamp":"2025-01-28T02:17:50.812063",
+    "amount":573.71,
+    "accountNumber":"JPHZ64710276773592",
+    "transactionType":"purchase",
+    "score":0.98,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"10147466-3886-4748-bfb9-b679650939f5",
+    "timestamp":"2025-01-29T04:02:16.241392",
+    "amount":237.77,
+    "accountNumber":"URAT40244550229612",
+    "transactionType":"deposit",
+    "score":0.89,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"a52ded75-c6b7-4634-9c5e-8560b82d16ee",
+    "timestamp":"2025-02-08T00:53:07.033112",
+    "amount":1202.82,
+    "accountNumber":"RBOC54516808760385",
+    "transactionType":"withdrawal",
+    "score":0.88,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"af746168-7aab-47b7-a566-6d52b20e1645",
+    "timestamp":"2025-03-25T19:38:34.620098",
+    "amount":1975.12,
+    "accountNumber":"RBOC54516808760385",
+    "transactionType":"transfer",
+    "score":0.75,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"ad2ee23e-ad7e-4f3a-8443-d1019b377c22",
+    "timestamp":"2025-01-18T12:10:30.193327",
+    "amount":1962.76,
+    "accountNumber":"LHUG94210470952145",
+    "transactionType":"transfer",
+    "score":0.92,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"073d93a7-42c2-4f43-9abf-17318b933bf5",
+    "timestamp":"2025-01-30T08:55:11.104289",
+    "amount":1972.34,
+    "accountNumber":"IBEX68117758917839",
+    "transactionType":"purchase",
+    "score":0.75,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"4f56e82d-0e90-4784-93e5-2d6ffbe2421c",
+    "timestamp":"2025-03-09T09:03:36.867124",
+    "amount":770.5,
+    "accountNumber":"IBEX68117758917839",
+    "transactionType":"payment",
+    "score":0.81,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"e82107a2-4c62-4344-9e53-faf3a4b8dade",
+    "timestamp":"2025-02-01T16:43:19.762871",
+    "amount":1442.03,
+    "accountNumber":"TWIR08313678377701",
+    "transactionType":"transfer",
+    "score":1.0,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"05cb3a77-12f9-4ccc-aa29-64ae7622138b",
+    "timestamp":"2025-02-02T01:45:50.132364",
+    "amount":613.86,
+    "accountNumber":"TWIR08313678377701",
+    "transactionType":"withdrawal",
+    "score":0.89,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"ae4ce745-8cd0-4b7a-bd3e-17059913c2d3",
+    "timestamp":"2025-02-15T20:36:24.321425",
+    "amount":1995.42,
+    "accountNumber":"TWIR08313678377701",
+    "transactionType":"withdrawal",
+    "score":0.87,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"8cbca3d5-24c3-4caf-bffe-99640ae824d1",
+    "timestamp":"2025-03-13T04:19:49.984556",
+    "amount":447.43,
+    "accountNumber":"TWIR08313678377701",
+    "transactionType":"withdrawal",
+    "score":0.91,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"cdba2849-e3c8-4336-9b7b-eb8975b0af1c",
+    "timestamp":"2025-02-20T05:31:33.817165",
+    "amount":46804.12,
+    "accountNumber":"BUML40515319520585",
+    "transactionType":"withdrawal",
+    "score":0.95,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"83f45cc8-e949-4ad5-8fa5-06b5aaabd172",
+    "timestamp":"2025-03-10T06:35:21.119018",
+    "amount":1987.87,
+    "accountNumber":"SNSM64160529751613",
+    "transactionType":"purchase",
+    "score":0.93,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"02dbefb5-bc5b-46b0-8252-b4a27b3c2680",
+    "timestamp":"2025-04-07T01:45:32.179626",
+    "amount":540.58,
+    "accountNumber":"CIOH79965075273545",
+    "transactionType":"purchase",
+    "score":0.77,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"b96cc989-9cc9-4fc3-9067-30ce848789d1",
+    "timestamp":"2025-02-10T13:28:56.081662",
+    "amount":1962.76,
+    "accountNumber":"IBWL37735158506431",
+    "transactionType":"transfer",
+    "score":0.71,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"380b8bfb-2f59-4e08-84cb-f852482d6285",
+    "timestamp":"2025-04-06T10:30:20.334069",
+    "amount":540.58,
+    "accountNumber":"CIOH79965075273545",
+    "transactionType":"purchase",
+    "score":0.79,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"a1e0e9ae-e653-466e-a7e4-4ed2dea11587",
+    "timestamp":"2025-02-07T13:35:33.781974",
+    "amount":1985.75,
+    "accountNumber":"HQNS22219693792374",
+    "transactionType":"withdrawal",
+    "score":0.78,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"6aa91d7a-7d04-42ae-aa44-c05dfab36cc9",
+    "timestamp":"2025-02-07T13:36:40.081230",
+    "amount":492.74,
+    "accountNumber":"NXKT40139904902787",
+    "transactionType":"purchase",
+    "score":0.76,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"d1380f04-ae91-4638-a7bf-f24ac1369255",
+    "timestamp":"2025-03-17T05:14:44.258845",
+    "amount":1366.69,
+    "accountNumber":"NXKT40139904902787",
+    "transactionType":"purchase",
+    "score":0.98,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"d2ce37ff-442e-45aa-a8fa-e73cc0b2b1c1",
+    "timestamp":"2025-03-17T16:15:34.511940",
+    "amount":1961.28,
+    "accountNumber":"NXKT40139904902787",
+    "transactionType":"purchase",
+    "score":0.96,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"1ca48229-a3cb-4c09-addb-ff89b0b7b635",
+    "timestamp":"2025-03-21T13:54:17.886939",
+    "amount":375.55,
+    "accountNumber":"NXKT40139904902787",
+    "transactionType":"deposit",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"6bc75120-a622-4f38-9951-d99c9fc6daac",
+    "timestamp":"2025-03-22T22:31:20.847764",
+    "amount":18.5,
+    "accountNumber":"NXKT40139904902787",
+    "transactionType":"withdrawal",
+    "score":0.9,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"783f9a50-49c3-4125-b8dd-c2813483883f",
+    "timestamp":"2025-03-29T15:12:02.745238",
+    "amount":96232.82,
+    "accountNumber":"NXKT40139904902787",
+    "transactionType":"purchase",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"ed5b5434-cc90-47b4-b085-8571f642fe39",
+    "timestamp":"2025-04-08T08:04:18.358160",
+    "amount":19732.79,
+    "accountNumber":"NXKT40139904902787",
+    "transactionType":"withdrawal",
+    "score":0.97,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"31695205-3c0a-4f2c-b1c4-296226c3a6ba",
+    "timestamp":"2025-03-23T16:53:35.569972",
+    "amount":1954.77,
+    "accountNumber":"ZEJB41574733848421",
+    "transactionType":"payment",
+    "score":0.84,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"3811b507-b5d0-4fce-9a1e-f6684bb11f65",
+    "timestamp":"2025-03-18T04:21:17.708724",
+    "amount":1961.28,
+    "accountNumber":"NXKT40139904902787",
+    "transactionType":"purchase",
+    "score":0.78,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"79946ba2-5b45-42dc-93ed-01c4988bfe42",
+    "timestamp":"2025-02-06T14:17:05.491747",
+    "amount":1335.93,
+    "accountNumber":"IXLY65060983584168",
+    "transactionType":"payment",
+    "score":0.77,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"1edfbfe4-33b0-431c-bb95-f04fe5f6e7c3",
+    "timestamp":"2025-01-13T18:33:09.062920",
+    "amount":1993.91,
+    "accountNumber":"OCVG90053293183933",
+    "transactionType":"transfer",
+    "score":0.87,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"9c2e3a77-7ab3-42f5-a946-27d6ed691185",
+    "timestamp":"2025-02-17T09:54:26.660718",
+    "amount":425.51,
+    "accountNumber":"OCVG90053293183933",
+    "transactionType":"purchase",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"0ecdb1b5-d93b-42de-8768-ab969252a776",
+    "timestamp":"2025-03-07T05:30:39.525721",
+    "amount":5413.61,
+    "accountNumber":"OCVG90053293183933",
+    "transactionType":"withdrawal",
+    "score":0.88,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"116edf3d-4ce2-4ebe-91f8-938767b256c8",
+    "timestamp":"2025-04-08T15:37:20.250544",
+    "amount":780.83,
+    "accountNumber":"OCVG90053293183933",
+    "transactionType":"payment",
+    "score":0.97,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"5ecf28a6-9576-4b07-bd88-f16e7c262f0d",
+    "timestamp":"2025-01-16T06:55:35.068444",
+    "amount":850.49,
+    "accountNumber":"USGW67632016328708",
+    "transactionType":"withdrawal",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f4688ec4-be94-4a81-8879-068c3b61e898",
+    "timestamp":"2025-02-04T18:51:15.344943",
+    "amount":850.28,
+    "accountNumber":"USGW67632016328708",
+    "transactionType":"purchase",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2a622840-e69e-4940-8eec-aae5fc718288",
+    "timestamp":"2025-03-14T23:29:18.614531",
+    "amount":861.96,
+    "accountNumber":"USGW67632016328708",
+    "transactionType":"payment",
+    "score":1.0,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"87aa033a-2c5a-40ab-b542-0e1f4c55e511",
+    "timestamp":"2025-03-19T09:19:24.303130",
+    "amount":78953.63,
+    "accountNumber":"USGW67632016328708",
+    "transactionType":"withdrawal",
+    "score":0.85,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"f5fee92e-6164-41e0-9d84-6defc8409663",
+    "timestamp":"2025-01-15T13:43:53.295336",
+    "amount":319.44,
+    "accountNumber":"JMTN32595327877470",
+    "transactionType":"purchase",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"930b5fae-797d-4e90-a954-ceef58e09bd6",
+    "timestamp":"2025-01-30T00:22:01.635553",
+    "amount":19805.52,
+    "accountNumber":"JMTN32595327877470",
+    "transactionType":"withdrawal",
+    "score":0.71,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile); Foreign transaction from high-risk country"
+  },
+  {
+    "id":"fafc93a9-bb79-485b-a0ec-7f6fe07c5d3d",
+    "timestamp":"2025-02-05T05:48:52.682248",
+    "amount":696.12,
+    "accountNumber":"JMTN32595327877470",
+    "transactionType":"payment",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"3dff544d-3e1e-4688-a48e-1a975f53603e",
+    "timestamp":"2025-02-17T20:35:05.532212",
+    "amount":1496.89,
+    "accountNumber":"JMTN32595327877470",
+    "transactionType":"purchase",
+    "score":0.89,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"72e8e8d9-7eb9-4630-93f5-24b73da902c8",
+    "timestamp":"2025-03-27T19:55:11.731251",
+    "amount":1040.6,
+    "accountNumber":"JMTN32595327877470",
+    "transactionType":"withdrawal",
+    "score":0.94,
+    "reason":"Closing balance < \u20b91000; Blacklisted merchant"
+  },
+  {
+    "id":"5d24f591-b9da-462a-bbd0-a8a81ab5d2ed",
+    "timestamp":"2025-01-09T08:43:01.771049",
+    "amount":1564.92,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"deposit",
+    "score":0.83,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"4ff26097-d8ae-4d71-b6f6-9518dd65866b",
+    "timestamp":"2025-01-09T11:24:07.509372",
+    "amount":1718.08,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"purchase",
+    "score":0.72,
+    "reason":"Closing balance < \u20b91000; Foreign transaction from high-risk country"
+  },
+  {
+    "id":"5c989c68-d4d4-4bd6-9737-c56846524178",
+    "timestamp":"2025-01-12T07:05:15.893135",
+    "amount":4007.32,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"withdrawal",
+    "score":0.81,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"829f156b-3fa4-4548-927f-034241486be3",
+    "timestamp":"2025-02-05T13:38:10.579276",
+    "amount":502.98,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"withdrawal",
+    "score":1.0,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"01693626-d52b-4c6f-9185-90645ac5373f",
+    "timestamp":"2025-02-18T22:44:56.816324",
+    "amount":582.22,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"withdrawal",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"97336b3e-f9fb-4e3b-a29d-3045b3149b3b",
+    "timestamp":"2025-02-20T03:44:47.228170",
+    "amount":1539.06,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"purchase",
+    "score":0.99,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"20bb8daa-d925-4622-ba00-799b57c40821",
+    "timestamp":"2025-02-22T00:23:33.677774",
+    "amount":573.71,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"purchase",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"05399377-5a05-411c-9f9d-ca4933c4c7ef",
+    "timestamp":"2025-02-28T14:23:51.439681",
+    "amount":1100.45,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"payment",
+    "score":0.7,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"52e82738-236f-482a-b55f-4392977ddaa4",
+    "timestamp":"2025-03-10T02:44:12.394609",
+    "amount":1735.04,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"payment",
+    "score":0.92,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"d528e6e3-8227-4d06-bcb7-a4318a4f6301",
+    "timestamp":"2025-03-10T17:28:36.447714",
+    "amount":516.9,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"deposit",
+    "score":0.9,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"6a7a1c57-146f-47ca-8007-9d40e1478493",
+    "timestamp":"2025-03-18T04:11:50.194452",
+    "amount":1667.56,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"payment",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"659ee7a4-6f32-48e7-98f3-14641d210033",
+    "timestamp":"2025-03-26T01:35:49.003839",
+    "amount":218.5,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"transfer",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"e9da7bf1-f77b-4ee3-a3c0-eb260d3db168",
+    "timestamp":"2025-03-28T12:18:45.685349",
+    "amount":1699.44,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"transfer",
+    "score":0.89,
+    "reason":"Closing balance < \u20b91000; Foreign transaction from high-risk country"
+  },
+  {
+    "id":"7586c59d-9e4d-4ae2-b0ef-b60e09266369",
+    "timestamp":"2025-04-01T14:59:01.303504",
+    "amount":492.74,
+    "accountNumber":"JSKQ88794705516940",
+    "transactionType":"purchase",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"fbaea169-4784-40c2-befa-80486c4944ac",
+    "timestamp":"2025-03-16T10:20:00.312242",
+    "amount":1961.73,
+    "accountNumber":"YLFT91241904966319",
+    "transactionType":"deposit",
+    "score":0.83,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"fd5afb31-618d-4aab-bf0c-dcc8575c7100",
+    "timestamp":"2025-01-13T17:19:52.695780",
+    "amount":1198.1,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":0.84,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2e9490b8-946a-42ed-a197-d7f01f3fafbd",
+    "timestamp":"2025-01-14T03:19:20.749311",
+    "amount":575.43,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":0.99,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"acee1101-2612-4eff-8a55-186114c0070e",
+    "timestamp":"2025-01-17T11:51:31.222422",
+    "amount":591.06,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"83496ada-c3cc-49ab-b9d5-e748b355ca69",
+    "timestamp":"2025-02-16T08:37:21.399376",
+    "amount":61197.44,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"purchase",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"fcf73174-c33c-45e9-aa5f-809498fb8cda",
+    "timestamp":"2025-02-16T17:23:48.428967",
+    "amount":932.08,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"transfer",
+    "score":0.85,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"37b2ae57-8c74-4bbd-8f1b-999178805f5f",
+    "timestamp":"2025-02-28T11:24:08.689435",
+    "amount":1982.02,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"deposit",
+    "score":0.75,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"dafa0463-69b7-4b0b-b485-8eb0a53a715b",
+    "timestamp":"2025-03-21T02:51:46.922568",
+    "amount":1897.0,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":0.97,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"dbbc34f0-c01c-496d-a8b1-1b7cd965dd79",
+    "timestamp":"2025-03-21T22:21:13.994868",
+    "amount":574.73,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2932a3e7-ee44-43a3-a52a-767220a68d30",
+    "timestamp":"2025-04-07T06:14:43.477674",
+    "amount":794.61,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"purchase",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"a89b7292-331b-4020-938d-a47cd0cac3f1",
+    "timestamp":"2025-01-16T12:43:03.809910",
+    "amount":1088.44,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"deposit",
+    "score":0.89,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"ff2eb269-a0d2-4335-a666-8d4e4b0869b7",
+    "timestamp":"2025-01-22T04:45:16.779889",
+    "amount":6710.96,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"withdrawal",
+    "score":0.88,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"df616348-1c8f-4751-b6f4-45c2b98bc2f5",
+    "timestamp":"2025-02-09T01:48:16.064994",
+    "amount":828.25,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"transfer",
+    "score":0.75,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"15906398-f9f7-4f6f-96b3-e089b166df15",
+    "timestamp":"2025-02-10T18:11:21.831733",
+    "amount":912.68,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"transfer",
+    "score":0.93,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9ccce60e-6e05-4e1f-9a3c-35ced77e94c4",
+    "timestamp":"2025-02-11T16:48:48.460525",
+    "amount":70.23,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"withdrawal",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"da100a3f-b8ca-4df1-ac2a-13e06a7f1dca",
+    "timestamp":"2025-02-27T18:04:15.441194",
+    "amount":1363.98,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"purchase",
+    "score":0.93,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"ed1acf6a-310c-4bd4-829e-9cd9b0f2a1ea",
+    "timestamp":"2025-03-02T23:30:25.740511",
+    "amount":1762.32,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"withdrawal",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"05c133e1-f16c-4886-93a8-6f62bc1484bc",
+    "timestamp":"2025-03-03T12:55:11.549543",
+    "amount":339.74,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"withdrawal",
+    "score":0.7,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"09606525-bdc3-404a-8d46-bdf5c37c39b0",
+    "timestamp":"2025-03-06T07:12:15.129654",
+    "amount":1674.97,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"transfer",
+    "score":0.8,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"81252ffc-eaef-45f5-9877-46364ccf6d6d",
+    "timestamp":"2025-03-07T01:45:17.888653",
+    "amount":1774.91,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"deposit",
+    "score":0.71,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"d3ddf0a2-f5e6-4245-ac9b-6fe7f62ed8cf",
+    "timestamp":"2025-03-07T01:58:54.132439",
+    "amount":1993.91,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"transfer",
+    "score":0.98,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"179219e8-647d-48c7-92b4-724c04679cf0",
+    "timestamp":"2025-03-10T04:18:24.925230",
+    "amount":776.74,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"transfer",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"a18b04d7-668a-4057-b7fc-2723ba0ab51e",
+    "timestamp":"2025-03-10T11:17:09.063005",
+    "amount":1132.97,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"purchase",
+    "score":0.95,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"37d6f52b-f6e9-42b7-b8ed-67502655fdef",
+    "timestamp":"2025-03-22T06:13:52.900078",
+    "amount":109.1,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"withdrawal",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"1c81aad1-b21d-4b9f-9c9b-b6a8c95ff724",
+    "timestamp":"2025-03-28T23:20:10.294526",
+    "amount":603.01,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"deposit",
+    "score":0.72,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"31ab4bad-8176-42e4-811a-cff8bfbb4362",
+    "timestamp":"2025-04-01T14:50:58.996101",
+    "amount":1713.9,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"purchase",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"16172c1f-a99c-4f29-bd6d-4c1ddea67e2e",
+    "timestamp":"2025-04-04T07:32:54.036956",
+    "amount":90601.85,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"transfer",
+    "score":0.98,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"88ac4be8-c62a-47c2-aba2-b8100f0e35f4",
+    "timestamp":"2025-04-07T01:37:00.872526",
+    "amount":1590.72,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"payment",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"c36b80d1-cb23-4c5f-8210-6c3eb369c523",
+    "timestamp":"2025-02-09T07:48:03.620024",
+    "amount":1953.13,
+    "accountNumber":"UHDW49190586518506",
+    "transactionType":"deposit",
+    "score":0.85,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"677e99eb-438a-45ce-bf8e-86dd9da3a5af",
+    "timestamp":"2025-01-04T17:15:41.249111",
+    "amount":1030.22,
+    "accountNumber":"DHMS59440640909743",
+    "transactionType":"withdrawal",
+    "score":0.72,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"aba91d92-e1e1-4fab-a9a0-bd5208739e79",
+    "timestamp":"2025-01-08T04:37:10.740551",
+    "amount":1961.28,
+    "accountNumber":"PXNF26838851606071",
+    "transactionType":"purchase",
+    "score":0.93,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"a1f71087-a9d3-4564-9d39-9f1af48c1fe0",
+    "timestamp":"2025-02-01T21:47:17.071122",
+    "amount":1442.03,
+    "accountNumber":"TWIR08313678377701",
+    "transactionType":"transfer",
+    "score":0.93,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"692a0cab-62f3-437d-bd58-03d25e422e1e",
+    "timestamp":"2025-02-02T06:53:24.205084",
+    "amount":613.86,
+    "accountNumber":"TWIR08313678377701",
+    "transactionType":"withdrawal",
+    "score":0.74,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"b55c02e2-2125-49d2-8929-fc1f549f3838",
+    "timestamp":"2025-02-16T03:56:09.913727",
+    "amount":1995.42,
+    "accountNumber":"TWIR08313678377701",
+    "transactionType":"withdrawal",
+    "score":0.84,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"ffea193f-91d3-494a-9b12-ab2ca7ec5f80",
+    "timestamp":"2025-03-10T13:04:39.791085",
+    "amount":1443.65,
+    "accountNumber":"PUOY03482477109324",
+    "transactionType":"payment",
+    "score":0.86,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"56f6e1ee-6ac0-4302-89ac-2b143dac5a51",
+    "timestamp":"2025-03-26T03:46:43.750643",
+    "amount":27562.29,
+    "accountNumber":"PUOY03482477109324",
+    "transactionType":"withdrawal",
+    "score":0.78,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"0d4fab6a-4801-45a0-88e2-3c3b3b6a954d",
+    "timestamp":"2025-01-10T19:36:14.523440",
+    "amount":1993.28,
+    "accountNumber":"HVXV68516048175496",
+    "transactionType":"deposit",
+    "score":0.96,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"546e5f15-d3e2-4bd0-a572-ed3366f67286",
+    "timestamp":"2025-01-20T20:45:18.874371",
+    "amount":1999.21,
+    "accountNumber":"POUJ49058147700541",
+    "transactionType":"payment",
+    "score":0.83,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"891a1ec9-27db-480a-b8f0-e650ff28bef6",
+    "timestamp":"2025-02-07T07:37:42.274606",
+    "amount":1985.75,
+    "accountNumber":"HQNS22219693792374",
+    "transactionType":"withdrawal",
+    "score":0.76,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"21d99ede-72d6-493a-87e2-2b064f2c6a9f",
+    "timestamp":"2025-02-18T17:20:48.070634",
+    "amount":1950.87,
+    "accountNumber":"HQNS22219693792374",
+    "transactionType":"withdrawal",
+    "score":0.86,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"576cf04d-acf3-44fe-bb13-4387e28fe09e",
+    "timestamp":"2025-03-11T00:01:58.355117",
+    "amount":1443.65,
+    "accountNumber":"PUOY03482477109324",
+    "transactionType":"payment",
+    "score":0.92,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"07fd4ad1-7a4d-40f6-9b30-8b25fe42df96",
+    "timestamp":"2025-03-26T17:13:45.278301",
+    "amount":27562.29,
+    "accountNumber":"PUOY03482477109324",
+    "transactionType":"withdrawal",
+    "score":0.76,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"71ec7343-fe11-4a6d-8dec-7364ed1e7a2b",
+    "timestamp":"2025-01-21T03:05:58.840258",
+    "amount":1989.39,
+    "accountNumber":"PLZQ41616928451154",
+    "transactionType":"payment",
+    "score":0.79,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"c661c9ef-342d-4145-ab79-3a2fd4e08b4d",
+    "timestamp":"2025-02-10T17:06:23.878254",
+    "amount":10058.97,
+    "accountNumber":"PLZQ41616928451154",
+    "transactionType":"withdrawal",
+    "score":1.0,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"c74435a5-b07d-4775-b728-b220c442ad5d",
+    "timestamp":"2025-03-24T09:39:08.766466",
+    "amount":1985.75,
+    "accountNumber":"PLZQ41616928451154",
+    "transactionType":"withdrawal",
+    "score":0.89,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"0bb888df-1ef0-4bdb-abb7-66012d0b4d09",
+    "timestamp":"2025-02-09T14:05:10.403779",
+    "amount":1953.13,
+    "accountNumber":"UHDW49190586518506",
+    "transactionType":"deposit",
+    "score":0.83,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"df0a0fca-d01a-425c-9a85-5ec4debd7b06",
+    "timestamp":"2025-02-02T04:35:46.040913",
+    "amount":1994.34,
+    "accountNumber":"JMRA44369957773872",
+    "transactionType":"purchase",
+    "score":0.86,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"a6d92fc4-17de-426a-ba22-fab424147ff3",
+    "timestamp":"2025-01-09T23:56:45.535128",
+    "amount":38.7,
+    "accountNumber":"DOEZ78895798687277",
+    "transactionType":"withdrawal",
+    "score":0.74,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"fa2db7e0-f7a7-488c-9dd6-43a2023693e4",
+    "timestamp":"2025-03-15T12:54:05.647610",
+    "amount":52262.92,
+    "accountNumber":"WKXL62588153714732",
+    "transactionType":"withdrawal",
+    "score":0.77,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"be163fce-278a-432d-b76a-5e7620533ff3",
+    "timestamp":"2025-02-24T22:32:14.488193",
+    "amount":84935.31,
+    "accountNumber":"JPDD38267586926179",
+    "transactionType":"withdrawal",
+    "score":0.8,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"6f9ffdcc-e634-47fb-95c0-b0afb1d49dce",
+    "timestamp":"2025-03-17T05:21:24.600681",
+    "amount":1817.07,
+    "accountNumber":"JPDD38267586926179",
+    "transactionType":"transfer",
+    "score":0.88,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"18384185-498d-4ee7-a9e3-2e3e18662287",
+    "timestamp":"2025-02-11T06:18:56.918325",
+    "amount":1878.2,
+    "accountNumber":"QJCI38424981829922",
+    "transactionType":"payment",
+    "score":0.77,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"56b3e13e-73ec-4ea1-8d9a-5d9c561c48ff",
+    "timestamp":"2025-04-05T03:28:33.134674",
+    "amount":1753.4,
+    "accountNumber":"QJCI38424981829922",
+    "transactionType":"withdrawal",
+    "score":0.77,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"d3db6902-9c50-458f-9940-95e8cc171cb2",
+    "timestamp":"2025-03-08T00:42:02.975675",
+    "amount":1946.37,
+    "accountNumber":"YILU86850142940196",
+    "transactionType":"payment",
+    "score":0.72,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"0b229ca0-a881-4dde-9c72-1c2cec50cd6f",
+    "timestamp":"2025-03-28T14:25:43.378422",
+    "amount":1992.3,
+    "accountNumber":"YILU86850142940196",
+    "transactionType":"withdrawal",
+    "score":0.89,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"4afa775d-bc39-4039-b541-6b0530a6d034",
+    "timestamp":"2025-01-02T15:17:50.571233",
+    "amount":1260.93,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"transfer",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"e7eabc8f-bf24-41a1-9365-33fe509f13b4",
+    "timestamp":"2025-02-03T16:30:15.880904",
+    "amount":60099.99,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"withdrawal",
+    "score":0.97,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"4278e48c-3361-4be0-b2c9-c83e90d2bc2e",
+    "timestamp":"2025-03-10T13:32:09.863936",
+    "amount":313.78,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"purchase",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"ef5ab0c6-590a-4c92-9b21-3547cb245303",
+    "timestamp":"2025-01-12T13:28:31.517695",
+    "amount":1954.77,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"payment",
+    "score":0.72,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"840817d8-1de0-4a17-b325-2cab72e1da8e",
+    "timestamp":"2025-01-30T06:47:32.520093",
+    "amount":1989.28,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"deposit",
+    "score":0.77,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"05f4b217-e692-48ba-bffe-0c482b6ff363",
+    "timestamp":"2025-02-06T19:54:51.503521",
+    "amount":1120.39,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"withdrawal",
+    "score":0.9,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"7ae7358a-5019-49da-a038-77c5a3f553fa",
+    "timestamp":"2025-02-11T06:15:17.313623",
+    "amount":1983.72,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"purchase",
+    "score":0.76,
+    "reason":"High transaction amount (>95th percentile); Foreign transaction from high-risk country"
+  },
+  {
+    "id":"a6d3a3d2-0457-4794-9982-e596fd228461",
+    "timestamp":"2025-03-09T01:44:10.934851",
+    "amount":74143.76,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"withdrawal",
+    "score":0.74,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"d47a62a7-d03e-497e-90e2-94cdac388fa1",
+    "timestamp":"2025-03-11T22:02:45.783119",
+    "amount":1718.13,
+    "accountNumber":"XGKD82337498941343",
+    "transactionType":"withdrawal",
+    "score":0.98,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"8371b1ce-cfb5-4c3c-8a94-c33cea1a8bda",
+    "timestamp":"2025-01-15T11:26:21.455986",
+    "amount":1957.09,
+    "accountNumber":"BBEW57872982595269",
+    "transactionType":"purchase",
+    "score":0.87,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"cd8ae09d-848e-4f7a-8213-b4776b2d2f8b",
+    "timestamp":"2025-02-01T03:49:08.620197",
+    "amount":505.12,
+    "accountNumber":"BBEW57872982595269",
+    "transactionType":"purchase",
+    "score":0.84,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"2c15e414-ce2a-4ccd-9327-f4458dee7a08",
+    "timestamp":"2025-02-14T09:50:04.303715",
+    "amount":1976.62,
+    "accountNumber":"MQOH39500479748016",
+    "transactionType":"purchase",
+    "score":0.94,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"b2a3ab7b-02da-4b71-b565-d653406a9494",
+    "timestamp":"2025-02-23T23:52:23.882883",
+    "amount":1989.28,
+    "accountNumber":"MQOH39500479748016",
+    "transactionType":"deposit",
+    "score":0.94,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"2120364f-1f50-4348-b5de-aa32d300d526",
+    "timestamp":"2025-03-13T07:48:48.186059",
+    "amount":1991.15,
+    "accountNumber":"MQOH39500479748016",
+    "transactionType":"transfer",
+    "score":0.76,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"3124dc00-68b3-493e-b651-62853d466d3b",
+    "timestamp":"2025-02-24T13:48:53.408688",
+    "amount":84935.31,
+    "accountNumber":"JPDD38267586926179",
+    "transactionType":"withdrawal",
+    "score":0.73,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"4516e9eb-faf6-4b00-adf8-76097f332e33",
+    "timestamp":"2025-03-16T17:24:49.873890",
+    "amount":1817.07,
+    "accountNumber":"JPDD38267586926179",
+    "transactionType":"transfer",
+    "score":0.83,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"3ffcead9-8777-416a-9246-1e1c1a4f4763",
+    "timestamp":"2025-02-20T13:33:15.224683",
+    "amount":46804.12,
+    "accountNumber":"BUML40515319520585",
+    "transactionType":"withdrawal",
+    "score":0.83,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"57da22e7-3222-4d65-9999-825d7603049b",
+    "timestamp":"2025-01-03T01:09:49.298652",
+    "amount":78948.24,
+    "accountNumber":"YCSE85654310278681",
+    "transactionType":"transfer",
+    "score":0.84,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"58580478-0500-4663-9c4b-7abf6486388c",
+    "timestamp":"2025-01-20T07:49:56.932339",
+    "amount":1997.18,
+    "accountNumber":"NBMQ53615305152204",
+    "transactionType":"purchase",
+    "score":0.92,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"57089c11-d173-4021-a2a4-463af6203f9f",
+    "timestamp":"2025-01-31T10:51:06.550329",
+    "amount":1961.65,
+    "accountNumber":"ECPZ45961586578091",
+    "transactionType":"transfer",
+    "score":0.9,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"fdc41c5e-08cc-4746-a41b-6319080c1598",
+    "timestamp":"2025-02-18T09:40:57.585360",
+    "amount":1960.59,
+    "accountNumber":"ITUS85698478961183",
+    "transactionType":"deposit",
+    "score":1.0,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"b6f4f6e6-182c-4171-b6c6-ef2f07cda983",
+    "timestamp":"2025-02-04T22:23:56.610210",
+    "amount":1892.39,
+    "accountNumber":"VJHX16117240050455",
+    "transactionType":"payment",
+    "score":0.73,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"500321ea-45e9-4164-8dd6-a5a4ee1a3bcd",
+    "timestamp":"2025-03-02T04:52:29.443953",
+    "amount":697.84,
+    "accountNumber":"VJHX16117240050455",
+    "transactionType":"payment",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"dd13043c-4cf7-4509-925b-e6ede856415d",
+    "timestamp":"2025-03-07T18:00:26.189698",
+    "amount":1704.74,
+    "accountNumber":"VJHX16117240050455",
+    "transactionType":"purchase",
+    "score":0.8,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"70ccfd62-fbea-4a4b-8567-a6491ab39f7f",
+    "timestamp":"2025-03-23T05:28:59.209083",
+    "amount":15200.01,
+    "accountNumber":"VJHX16117240050455",
+    "transactionType":"withdrawal",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"bddef597-604f-4d1d-a8be-2d5d2584e80b",
+    "timestamp":"2025-01-01T09:00:58.282622",
+    "amount":1323.81,
+    "accountNumber":"ETVZ70213556909275",
+    "transactionType":"purchase",
+    "score":0.77,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"eb5e4ffc-d4ae-405a-ac87-05bb08dae292",
+    "timestamp":"2025-01-15T22:15:25.218464",
+    "amount":1454.47,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.76,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"0b796dee-b04e-477b-bf82-5726b5fdf4df",
+    "timestamp":"2025-01-20T17:13:20.116101",
+    "amount":926.78,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"purchase",
+    "score":0.83,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"6e0afdc8-db78-42b7-a835-e5df1a914e93",
+    "timestamp":"2025-01-26T13:34:34.204580",
+    "amount":1275.31,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"purchase",
+    "score":0.83,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"7eb640ce-46ed-49ee-9d7d-222c5f65eec7",
+    "timestamp":"2025-01-28T18:58:25.010142",
+    "amount":1888.72,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"7e5611d8-5187-444a-ac95-7d8123f4e8fb",
+    "timestamp":"2025-02-13T21:49:57.367342",
+    "amount":746.88,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"transfer",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9c3f394e-8570-4c47-aeef-d3c8fa642db0",
+    "timestamp":"2025-03-05T17:23:32.428164",
+    "amount":348.54,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"purchase",
+    "score":0.98,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"0b930df1-4a98-4715-a5fd-dcbf8e1bf569",
+    "timestamp":"2025-03-11T08:49:19.008538",
+    "amount":86067.18,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.83,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"063b2425-329e-4f71-9cd6-ea621488e26e",
+    "timestamp":"2025-03-12T08:13:56.166235",
+    "amount":1926.76,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"10c47fcb-276b-4826-bc56-fa5f352eaf91",
+    "timestamp":"2025-02-22T01:34:04.583598",
+    "amount":5303.5,
+    "accountNumber":"JQVU95134332003791",
+    "transactionType":"withdrawal",
+    "score":0.87,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"123bbb27-ef71-41a3-bb96-1eb20f52f7bd",
+    "timestamp":"2025-01-20T17:36:04.907646",
+    "amount":1999.21,
+    "accountNumber":"POUJ49058147700541",
+    "transactionType":"payment",
+    "score":0.72,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"9d2f76b9-62bf-4faf-9078-3457ad42807f",
+    "timestamp":"2025-01-30T16:42:28.717271",
+    "amount":1326.85,
+    "accountNumber":"POUJ49058147700541",
+    "transactionType":"withdrawal",
+    "score":1.0,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"c049d769-c5d3-416e-9bbc-fd1fc2affd16",
+    "timestamp":"2025-01-25T11:45:19.105386",
+    "amount":1326.85,
+    "accountNumber":"PLKR86753396360576",
+    "transactionType":"withdrawal",
+    "score":0.95,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"a260ba47-65c6-48a5-a92c-7cb86250bcdc",
+    "timestamp":"2025-01-12T04:58:05.611989",
+    "amount":1442.03,
+    "accountNumber":"EIGF92127799799552",
+    "transactionType":"transfer",
+    "score":0.99,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"05a2a271-56ed-46c7-ab4d-1d5898e446fb",
+    "timestamp":"2025-01-19T23:55:28.903067",
+    "amount":429.46,
+    "accountNumber":"EIGF92127799799552",
+    "transactionType":"payment",
+    "score":0.98,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"7e26d0fb-f211-4f86-8d84-c3bcc0d55644",
+    "timestamp":"2025-02-01T12:51:06.476437",
+    "amount":883.24,
+    "accountNumber":"EIGF92127799799552",
+    "transactionType":"withdrawal",
+    "score":0.95,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"49b95909-73a8-4738-8c37-2a802dddc115",
+    "timestamp":"2025-02-12T12:27:37.841585",
+    "amount":1946.43,
+    "accountNumber":"EIGF92127799799552",
+    "transactionType":"purchase",
+    "score":0.75,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"051c1619-f5ec-4a24-8e9e-9bd01b8de8f6",
+    "timestamp":"2025-03-17T13:44:34.688977",
+    "amount":97462.38,
+    "accountNumber":"PWEY77901043289861",
+    "transactionType":"withdrawal",
+    "score":0.85,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"90d508fc-e26e-4002-809e-a3ac28f95110",
+    "timestamp":"2025-01-13T20:35:38.254356",
+    "amount":1993.91,
+    "accountNumber":"OCVG90053293183933",
+    "transactionType":"transfer",
+    "score":0.76,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"e790192b-cdaa-450c-a8f3-cb8ade81432c",
+    "timestamp":"2025-02-17T17:29:06.971558",
+    "amount":425.51,
+    "accountNumber":"OCVG90053293183933",
+    "transactionType":"purchase",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"e7a6a99c-468b-4669-8cd5-76f063e7474d",
+    "timestamp":"2025-03-07T15:56:10.582315",
+    "amount":5413.61,
+    "accountNumber":"OCVG90053293183933",
+    "transactionType":"withdrawal",
+    "score":0.72,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"98abac1a-5c00-4bcb-a45b-f47d630ac9ea",
+    "timestamp":"2025-04-09T07:13:45.497425",
+    "amount":780.83,
+    "accountNumber":"OCVG90053293183933",
+    "transactionType":"payment",
+    "score":0.81,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"6431b5c3-18b3-468f-b528-9bcc8b9e281e",
+    "timestamp":"2025-01-21T18:34:17.545031",
+    "amount":88817.32,
+    "accountNumber":"ZKNT81693406088356",
+    "transactionType":"deposit",
+    "score":1.0,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"62436926-b2ed-426b-931b-d0b31214a3d9",
+    "timestamp":"2025-02-28T17:06:44.472466",
+    "amount":1999.21,
+    "accountNumber":"ZKNT81693406088356",
+    "transactionType":"payment",
+    "score":0.78,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"a041fac8-0d70-4f3a-8832-967a467bfaea",
+    "timestamp":"2025-02-14T15:02:27.706998",
+    "amount":1976.62,
+    "accountNumber":"DNLU72628498776945",
+    "transactionType":"purchase",
+    "score":0.94,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"4917caa2-7187-4395-8e60-6d99d27ca8fa",
+    "timestamp":"2025-02-14T18:35:40.751545",
+    "amount":1950.87,
+    "accountNumber":"JJFW25831323705895",
+    "transactionType":"withdrawal",
+    "score":0.84,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"6bb2f7bd-7862-4b92-9e84-f007afae26ed",
+    "timestamp":"2025-02-26T09:19:21.918542",
+    "amount":1997.18,
+    "accountNumber":"JJFW25831323705895",
+    "transactionType":"purchase",
+    "score":0.83,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"eb5a6616-8f1e-4387-aa8f-bf5bb2d8075f",
+    "timestamp":"2025-01-13T19:21:52.610246",
+    "amount":1198.1,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":0.99,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"c4b1dd26-6859-458d-937f-7a47c9a4a012",
+    "timestamp":"2025-01-14T05:25:20.187817",
+    "amount":575.43,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":1.0,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"3da17ea4-cc5e-43cd-9922-e628d705f8ba",
+    "timestamp":"2025-01-17T14:29:41.410898",
+    "amount":591.06,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":0.87,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f0d29fcb-65a1-4aeb-a618-f294fe51dcd2",
+    "timestamp":"2025-02-16T16:01:55.055920",
+    "amount":61197.44,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"purchase",
+    "score":0.92,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"67bdb34e-6af3-4582-9883-b376e29cc397",
+    "timestamp":"2025-02-17T00:51:52.912483",
+    "amount":932.08,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"transfer",
+    "score":0.75,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"bc154570-67a1-460e-ad01-88a98259538d",
+    "timestamp":"2025-03-21T15:30:29.654082",
+    "amount":1897.0,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2a6bca7c-afcd-49c6-9476-2f27edbacf8d",
+    "timestamp":"2025-03-22T11:07:43.993832",
+    "amount":574.73,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"payment",
+    "score":0.99,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9e9eae5f-2542-4c7e-94a0-caaacd2d0ac5",
+    "timestamp":"2025-04-07T21:37:48.557939",
+    "amount":794.61,
+    "accountNumber":"HJWJ71349361832421",
+    "transactionType":"purchase",
+    "score":0.87,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"d1c4b636-efbc-4e4a-b321-cd0bbf02e1d7",
+    "timestamp":"2025-01-02T12:02:57.743030",
+    "amount":1674.97,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"transfer",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"ecf63fe0-4f6b-4675-b952-8f95db6ad694",
+    "timestamp":"2025-01-12T07:27:25.381038",
+    "amount":84023.41,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.92,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"209d3946-d1db-4169-bb0b-06d7b74419d7",
+    "timestamp":"2025-01-15T19:53:13.297367",
+    "amount":1454.47,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.72,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"0f445bfa-0e85-486d-aef2-70244df65dca",
+    "timestamp":"2025-01-20T14:05:30.287796",
+    "amount":926.78,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"purchase",
+    "score":0.88,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"1ed66ef8-632b-4db7-9694-fc228118d427",
+    "timestamp":"2025-01-26T09:31:01.835869",
+    "amount":1275.31,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"purchase",
+    "score":0.85,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"242789a4-dc41-409c-9e0e-70755d54d54d",
+    "timestamp":"2025-01-28T14:33:40.976706",
+    "amount":1888.72,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"22beaeaa-303d-4dde-8ff1-3f5dc31cab31",
+    "timestamp":"2025-02-13T14:51:40.254147",
+    "amount":746.88,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"transfer",
+    "score":0.75,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"936d817f-35d0-4ee7-9f77-735098c78c2f",
+    "timestamp":"2025-03-04T10:13:10.554986",
+    "amount":1693.73,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"purchase",
+    "score":0.99,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2e8b2120-13bc-4514-96b9-67f51c21f35c",
+    "timestamp":"2025-03-05T07:16:29.819268",
+    "amount":348.54,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"purchase",
+    "score":0.72,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"64ea6a7a-6e3e-40dd-b33f-6654e882496a",
+    "timestamp":"2025-03-10T21:48:31.132046",
+    "amount":86067.18,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.76,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"a200aabe-56f9-4638-b810-7731fbebfedd",
+    "timestamp":"2025-03-11T21:03:50.061221",
+    "amount":1926.76,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.88,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2b6275b2-e374-4d70-979d-49f54a755962",
+    "timestamp":"2025-03-30T02:56:24.238004",
+    "amount":-2125.64,
+    "accountNumber":"MEFF92706537947383",
+    "transactionType":"withdrawal",
+    "score":0.9,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"d9f76ec2-884d-4a12-8db4-167f73199501",
+    "timestamp":"2025-01-08T18:55:47.336122",
+    "amount":70636.52,
+    "accountNumber":"XTKS00109439690784",
+    "transactionType":"transfer",
+    "score":0.77,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"e7494b7d-f69b-468f-b066-a6c25ee71226",
+    "timestamp":"2025-01-18T15:45:51.287046",
+    "amount":1950.29,
+    "accountNumber":"ZKWC82037788925546",
+    "transactionType":"transfer",
+    "score":0.74,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"dd9903a3-3d03-4cbe-b96e-34cc582d13b0",
+    "timestamp":"2025-01-20T17:11:35.178029",
+    "amount":1420.83,
+    "accountNumber":"IXLY65060983584168",
+    "transactionType":"deposit",
+    "score":0.97,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"00019cbf-edc6-4809-9f14-a2891d915b64",
+    "timestamp":"2025-02-06T08:28:29.063012",
+    "amount":1335.93,
+    "accountNumber":"IXLY65060983584168",
+    "transactionType":"payment",
+    "score":0.77,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"86327eb3-83c8-4f7a-8cf1-b579eeff5835",
+    "timestamp":"2025-02-01T23:29:06.598438",
+    "amount":1994.34,
+    "accountNumber":"JMRA44369957773872",
+    "transactionType":"purchase",
+    "score":0.88,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"06d7ca63-8966-439e-a4da-66c43677f69c",
+    "timestamp":"2025-02-11T04:27:15.941519",
+    "amount":1878.65,
+    "accountNumber":"JMRA44369957773872",
+    "transactionType":"deposit",
+    "score":0.89,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"34e15c14-a0ab-486c-b07a-9dd0b6dd2842",
+    "timestamp":"2025-03-09T19:44:57.977633",
+    "amount":1987.87,
+    "accountNumber":"SNSM64160529751613",
+    "transactionType":"purchase",
+    "score":0.83,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"8d45ec71-71af-4d88-842e-dc74bdad6858",
+    "timestamp":"2025-01-08T04:36:04.191677",
+    "amount":86335.59,
+    "accountNumber":"ZZPG59774688623924",
+    "transactionType":"withdrawal",
+    "score":0.88,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"4ebd9eac-c889-4f7b-8052-765cbaae6a2a",
+    "timestamp":"2025-02-27T11:27:00.507559",
+    "amount":56119.93,
+    "accountNumber":"FGEZ85884247451712",
+    "transactionType":"payment",
+    "score":0.86,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"efc27eee-ffa3-405a-a54d-44f56bb8bb52",
+    "timestamp":"2025-03-17T01:40:15.249426",
+    "amount":1982.02,
+    "accountNumber":"FGEZ85884247451712",
+    "transactionType":"deposit",
+    "score":0.98,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"27ab619f-9436-49ea-ad1e-b214a05228a0",
+    "timestamp":"2025-02-08T00:51:33.738101",
+    "amount":298.96,
+    "accountNumber":"EZTA42284210205395",
+    "transactionType":"payment",
+    "score":0.76,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"41774e0e-42ec-4a78-98cd-1f8807d24d13",
+    "timestamp":"2025-01-30T13:36:50.623631",
+    "amount":1972.34,
+    "accountNumber":"IBEX68117758917839",
+    "transactionType":"purchase",
+    "score":0.91,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"f6c32d8b-9228-41b8-8b87-83eb9deb9646",
+    "timestamp":"2025-01-21T21:53:30.138747",
+    "amount":88817.32,
+    "accountNumber":"ZKNT81693406088356",
+    "transactionType":"deposit",
+    "score":0.77,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"48431379-64f1-4534-a41e-ea9eff4c8f70",
+    "timestamp":"2025-03-02T14:29:49.024214",
+    "amount":697.84,
+    "accountNumber":"VJHX16117240050455",
+    "transactionType":"payment",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"d62eeee5-a705-4176-908f-b6d39ea9494c",
+    "timestamp":"2025-03-08T04:30:56.828462",
+    "amount":1704.74,
+    "accountNumber":"VJHX16117240050455",
+    "transactionType":"purchase",
+    "score":0.9,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"3078b90c-3e72-4321-a941-0c329d9bfa7d",
+    "timestamp":"2025-03-23T18:27:55.490101",
+    "amount":15200.01,
+    "accountNumber":"VJHX16117240050455",
+    "transactionType":"withdrawal",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"a4d6860a-ec12-45ea-ae5d-638bf3a0591f",
+    "timestamp":"2025-01-16T09:20:49.735521",
+    "amount":1282.38,
+    "accountNumber":"CTTQ67980793597820",
+    "transactionType":"transfer",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"209dbdf7-4e72-4117-ac12-b097afe97806",
+    "timestamp":"2025-01-29T14:37:10.967131",
+    "amount":67578.25,
+    "accountNumber":"CTTQ67980793597820",
+    "transactionType":"transfer",
+    "score":0.93,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"8090cfbd-dc6c-4574-923c-1e75aeb95ad1",
+    "timestamp":"2025-02-21T23:33:18.199819",
+    "amount":76815.97,
+    "accountNumber":"TWNF75705964016582",
+    "transactionType":"transfer",
+    "score":0.72,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"34640be7-97e5-448a-b73b-217f627d81fe",
+    "timestamp":"2025-03-30T03:04:13.259492",
+    "amount":55265.17,
+    "accountNumber":"VSPQ40369003432445",
+    "transactionType":"purchase",
+    "score":0.84,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"326800d2-6a00-4d1a-8895-dbae7a6782ab",
+    "timestamp":"2025-01-06T04:05:33.468864",
+    "amount":500.27,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"withdrawal",
+    "score":1.0,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"048317b7-f548-4ca8-8cbb-2cd132f1e56a",
+    "timestamp":"2025-01-21T02:15:22.739270",
+    "amount":67145.08,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"withdrawal",
+    "score":1.0,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"81cb9813-68c5-4dde-b9ec-bde339555ea0",
+    "timestamp":"2025-02-23T19:14:32.285374",
+    "amount":1362.19,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"purchase",
+    "score":0.72,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"aaa59921-9b6c-434a-8e14-96cf5c953253",
+    "timestamp":"2025-03-01T07:49:55.559134",
+    "amount":130.89,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"transfer",
+    "score":0.76,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"716a0cc2-b7ec-49a8-8176-cde7e240ab0a",
+    "timestamp":"2025-03-24T16:06:03.223717",
+    "amount":1000.5,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"transfer",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"0b26ae34-305b-4ca5-96ef-303ae26cd993",
+    "timestamp":"2025-01-05T21:16:23.757357",
+    "amount":1282.87,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"purchase",
+    "score":0.98,
+    "reason":"Closing balance < \u20b91000; Foreign transaction from high-risk country"
+  },
+  {
+    "id":"c33a25c6-f315-4fb1-aafc-87a7e828cf46",
+    "timestamp":"2025-01-09T21:54:58.092482",
+    "amount":1760.87,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"payment",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"8eee9c4c-db75-4da1-9941-82d47b726cc3",
+    "timestamp":"2025-01-13T13:33:56.375551",
+    "amount":1967.95,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"transfer",
+    "score":0.96,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"bc2a82bb-48fd-421c-9131-dde22838d3bd",
+    "timestamp":"2025-01-23T00:25:13.353809",
+    "amount":1949.22,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"payment",
+    "score":0.81,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"4fc77f2c-d79a-4df2-b407-3dfe859bdcc6",
+    "timestamp":"2025-02-03T19:54:47.149053",
+    "amount":590.68,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"withdrawal",
+    "score":0.75,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"52d2b7a4-05a4-4578-a4e3-33df4d2cd939",
+    "timestamp":"2025-02-05T22:28:40.350263",
+    "amount":680.4,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"payment",
+    "score":0.95,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9da09003-d588-4035-a7f1-f3041773d4fc",
+    "timestamp":"2025-02-06T17:48:45.439131",
+    "amount":1315.19,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"transfer",
+    "score":0.91,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"dc7e17c7-c8d8-4a3c-a698-417c4e39f294",
+    "timestamp":"2025-02-26T23:02:00.104664",
+    "amount":906.85,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"purchase",
+    "score":0.88,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"5f0b0bcf-e048-485d-911a-c3b673c42d54",
+    "timestamp":"2025-03-17T02:12:32.001017",
+    "amount":901.94,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"withdrawal",
+    "score":1.0,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"7aeb8eeb-ce8d-484c-b6da-09d55e4118bd",
+    "timestamp":"2025-03-31T04:24:27.477977",
+    "amount":11796.2,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"withdrawal",
+    "score":0.9,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"435d880a-f46a-4c44-8e45-5d2e7653a5c2",
+    "timestamp":"2025-04-06T03:52:19.642110",
+    "amount":1530.15,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"payment",
+    "score":0.7,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f6d0e512-8491-441a-b140-eeff594a9c9c",
+    "timestamp":"2025-02-27T20:38:11.001470",
+    "amount":56119.93,
+    "accountNumber":"FGEZ85884247451712",
+    "transactionType":"payment",
+    "score":0.95,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"5811a197-953d-4cb8-9a35-8d110f44d533",
+    "timestamp":"2025-03-17T13:40:07.928048",
+    "amount":1982.02,
+    "accountNumber":"FGEZ85884247451712",
+    "transactionType":"deposit",
+    "score":0.79,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"5f6b8a07-b083-4e1a-a605-ae1404e9462f",
+    "timestamp":"2025-02-09T05:30:58.801020",
+    "amount":1952.53,
+    "accountNumber":"LEYR92268018242253",
+    "transactionType":"transfer",
+    "score":0.9,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"0f384aab-178d-4ef1-bbfb-c27986c2286a",
+    "timestamp":"2025-02-22T07:51:47.214851",
+    "amount":76815.97,
+    "accountNumber":"TWNF75705964016582",
+    "transactionType":"transfer",
+    "score":0.98,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"e89bc44f-f7f9-4ac6-bc97-990dba78cc31",
+    "timestamp":"2025-02-14T16:55:56.277829",
+    "amount":1976.62,
+    "accountNumber":"MQOH39500479748016",
+    "transactionType":"purchase",
+    "score":0.74,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"02133812-7494-4633-8b6d-05aed709f7cf",
+    "timestamp":"2025-02-24T08:30:10.732514",
+    "amount":1989.28,
+    "accountNumber":"MQOH39500479748016",
+    "transactionType":"deposit",
+    "score":0.73,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"65b4a96c-5cf2-46b0-bfff-19493aaf4964",
+    "timestamp":"2025-03-13T19:12:47.378709",
+    "amount":1991.15,
+    "accountNumber":"MQOH39500479748016",
+    "transactionType":"transfer",
+    "score":0.73,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"06f6372a-eff5-4bec-bbe4-f59b8f6eae95",
+    "timestamp":"2025-01-01T22:00:39.782115",
+    "amount":1967.79,
+    "accountNumber":"MQCM45352181883552",
+    "transactionType":"payment",
+    "score":0.87,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"bd4cf92e-2499-4f5e-a7ad-d51feec20f30",
+    "timestamp":"2025-03-31T17:42:11.254807",
+    "amount":1989.39,
+    "accountNumber":"MQCM45352181883552",
+    "transactionType":"payment",
+    "score":0.78,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"58779de2-d262-463c-93db-661b712cb610",
+    "timestamp":"2025-03-03T16:36:28.796916",
+    "amount":1995.42,
+    "accountNumber":"RITV91216558523986",
+    "transactionType":"withdrawal",
+    "score":0.88,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"c9091e19-20a6-4c21-8700-f22d8ce9ef81",
+    "timestamp":"2025-03-14T08:23:59.033647",
+    "amount":60206.11,
+    "accountNumber":"RITV91216558523986",
+    "transactionType":"payment",
+    "score":0.92,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"e8ae2d63-b422-4522-8858-a6022877a00b",
+    "timestamp":"2025-01-25T15:40:09.762037",
+    "amount":1326.85,
+    "accountNumber":"PLKR86753396360576",
+    "transactionType":"withdrawal",
+    "score":0.76,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"f9caf23a-95d8-49f7-a327-ea3e8fd99d4d",
+    "timestamp":"2025-02-06T06:24:53.599030",
+    "amount":1157.95,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"purchase",
+    "score":0.89,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"c75b465c-3fd7-4b14-a91c-2641f6a0147a",
+    "timestamp":"2025-02-07T13:40:00.027792",
+    "amount":574.4,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"withdrawal",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"3e7dc80b-b76f-4dd0-89c6-eea755c0cd02",
+    "timestamp":"2025-02-10T08:54:52.306603",
+    "amount":71068.85,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"purchase",
+    "score":0.85,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"2a919479-26b9-4252-a19e-92f815e2323c",
+    "timestamp":"2025-02-19T01:08:38.171173",
+    "amount":1295.76,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"transfer",
+    "score":0.97,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"10dd312e-b018-404a-9301-402e3f0f8699",
+    "timestamp":"2025-02-27T14:43:47.901131",
+    "amount":154.72,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"payment",
+    "score":0.95,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9d7f1fc9-f12b-45a8-9947-f38366aba5fd",
+    "timestamp":"2025-03-13T04:26:08.833938",
+    "amount":1296.51,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"transfer",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"ab34ff9a-346d-437b-b2db-18ed893442ac",
+    "timestamp":"2025-03-27T20:23:39.124068",
+    "amount":221.6,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"transfer",
+    "score":0.83,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f1dcace6-0c86-43b9-b430-91c7192695f7",
+    "timestamp":"2025-03-29T02:32:41.715701",
+    "amount":768.55,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"purchase",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"8b4b1193-ec4b-42cc-b1ac-3fa7bd2bf83b",
+    "timestamp":"2025-03-30T21:17:50.419765",
+    "amount":778.12,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"payment",
+    "score":0.7,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"ac69cc51-3968-47e5-9b5c-4e208783ae43",
+    "timestamp":"2025-03-31T17:13:37.434203",
+    "amount":1211.99,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"withdrawal",
+    "score":0.93,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2a77d9a8-fdc0-4280-ae9b-46142d8fd53a",
+    "timestamp":"2025-04-01T15:05:08.814292",
+    "amount":245.87,
+    "accountNumber":"JFGK73322141888059",
+    "transactionType":"deposit",
+    "score":0.89,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"c68138a6-8142-4564-bd6b-f61ef553b2fb",
+    "timestamp":"2025-02-13T05:16:05.772022",
+    "amount":1967.95,
+    "accountNumber":"FBIM53755646417080",
+    "transactionType":"transfer",
+    "score":0.78,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"3d7fd42b-593d-4a8b-86d2-0e8568a1aa3d",
+    "timestamp":"2025-03-05T22:59:19.768128",
+    "amount":1212.99,
+    "accountNumber":"FYVO72217043030548",
+    "transactionType":"transfer",
+    "score":0.92,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"c9d07293-ccd4-437e-9cf1-2eee801170e5",
+    "timestamp":"2025-01-01T02:50:09.273476",
+    "amount":1684.76,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"withdrawal",
+    "score":0.87,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"4936ebaa-a97b-4955-bd58-ff1292821013",
+    "timestamp":"2025-01-02T15:02:14.684239",
+    "amount":1260.93,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"transfer",
+    "score":0.83,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"05a6c196-005b-4be5-981a-e53ccba5fdb8",
+    "timestamp":"2025-01-09T08:02:50.031595",
+    "amount":886.22,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"transfer",
+    "score":0.7,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"b26f5504-4117-4572-85d1-3b6fdfd06cb8",
+    "timestamp":"2025-01-25T15:37:58.558055",
+    "amount":92568.86,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"transfer",
+    "score":0.72,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"35ead77b-fbb8-41a9-a152-a258458afcb9",
+    "timestamp":"2025-02-02T13:21:27.881673",
+    "amount":813.04,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"purchase",
+    "score":0.96,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"f2782a77-1321-4cc2-b4f6-b6c0cb40539d",
+    "timestamp":"2025-02-03T11:09:20.939581",
+    "amount":60099.99,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"withdrawal",
+    "score":0.97,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"53d5cab6-91fe-41bf-afad-167f7a8a0aad",
+    "timestamp":"2025-02-10T13:19:44.008421",
+    "amount":1030.22,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"withdrawal",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"590ad0e1-5290-449c-95ec-295faad00b04",
+    "timestamp":"2025-02-28T06:29:19.970776",
+    "amount":779.13,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"deposit",
+    "score":0.95,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"db25a620-cee1-44fd-95ea-246f42973a81",
+    "timestamp":"2025-03-08T15:26:43.864000",
+    "amount":981.47,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"deposit",
+    "score":0.87,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"60448149-d2c3-4662-a32f-d2ab3f254b5a",
+    "timestamp":"2025-03-10T02:39:00.590395",
+    "amount":313.78,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"purchase",
+    "score":0.74,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"a4f4e905-dd87-4ec1-8e77-d4b21ea0f7d5",
+    "timestamp":"2025-03-15T15:35:56.505059",
+    "amount":1382.55,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"deposit",
+    "score":0.74,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"38489a8b-f70c-493a-9733-6d9e8a2183aa",
+    "timestamp":"2025-03-19T17:02:26.126662",
+    "amount":341.44,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"deposit",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"31ac515d-73ba-4027-aa2d-7f2046ed87c9",
+    "timestamp":"2025-03-22T04:26:06.823374",
+    "amount":574.4,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"withdrawal",
+    "score":0.97,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"1cc4ed91-09f0-4e7a-a219-b1833e16335c",
+    "timestamp":"2025-03-31T17:05:39.951380",
+    "amount":827.72,
+    "accountNumber":"HUIY87347143455812",
+    "transactionType":"purchase",
+    "score":0.94,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"0ec484aa-d2c1-4220-ad7f-86e2495ea387",
+    "timestamp":"2025-01-09T22:31:02.672389",
+    "amount":38.7,
+    "accountNumber":"DOEZ78895798687277",
+    "transactionType":"withdrawal",
+    "score":0.96,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"2a17749b-3570-4a2c-8995-d606c5e4754a",
+    "timestamp":"2025-01-15T13:45:10.853834",
+    "amount":1957.09,
+    "accountNumber":"BBEW57872982595269",
+    "transactionType":"purchase",
+    "score":0.97,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"486a5b6d-a095-4fb9-a15d-e0cf8cdac300",
+    "timestamp":"2025-02-18T17:25:07.391799",
+    "amount":1960.59,
+    "accountNumber":"ITUS85698478961183",
+    "transactionType":"deposit",
+    "score":0.76,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"129a6ba5-a487-481a-a468-6ac1842e9a1b",
+    "timestamp":"2025-01-01T19:53:35.959419",
+    "amount":62109.17,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"withdrawal",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"c082a37b-ba8f-4a8b-9683-ae1ca295b345",
+    "timestamp":"2025-01-02T19:07:34.821146",
+    "amount":756.04,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"withdrawal",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9fa9d983-0240-4f12-a587-c7e3d018ec9c",
+    "timestamp":"2025-01-09T19:47:05.587934",
+    "amount":1760.87,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"payment",
+    "score":0.93,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"c9853bc7-1d5b-45a2-887e-0c2b350571eb",
+    "timestamp":"2025-02-15T12:07:09.789623",
+    "amount":217.41,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"payment",
+    "score":0.97,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"cf0c13b0-0224-4be4-97ea-22fca761c593",
+    "timestamp":"2025-03-23T09:07:57.791415",
+    "amount":1127.55,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"purchase",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"605d588a-4118-4492-ba90-978bfeab34c1",
+    "timestamp":"2025-03-29T13:04:42.678924",
+    "amount":55265.17,
+    "accountNumber":"VSPQ40369003432445",
+    "transactionType":"purchase",
+    "score":0.89,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"981ae1b1-6f22-4fb4-8f07-38d2ffa11c6b",
+    "timestamp":"2025-01-01T08:57:23.561298",
+    "amount":1323.81,
+    "accountNumber":"ETVZ70213556909275",
+    "transactionType":"purchase",
+    "score":0.75,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"3a9a5217-8631-454c-bc6e-d070a5bbcfee",
+    "timestamp":"2025-02-20T17:56:13.452929",
+    "amount":53055.23,
+    "accountNumber":"ETVZ70213556909275",
+    "transactionType":"payment",
+    "score":0.98,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"6d2a00d5-ce79-4866-9c7d-2cfb0254e419",
+    "timestamp":"2025-02-16T03:59:28.876247",
+    "amount":66803.12,
+    "accountNumber":"LHUC00330923271937",
+    "transactionType":"withdrawal",
+    "score":0.96,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"caf20ff9-bafe-47a0-8ed7-696809451fd9",
+    "timestamp":"2025-03-17T13:08:01.496310",
+    "amount":1961.65,
+    "accountNumber":"LHUC00330923271937",
+    "transactionType":"transfer",
+    "score":0.99,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"20143c9f-6ac0-44b8-97ee-1aa21db88983",
+    "timestamp":"2025-03-08T11:15:14.083493",
+    "amount":1946.37,
+    "accountNumber":"YILU86850142940196",
+    "transactionType":"payment",
+    "score":0.94,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"3eac6cd7-561b-4dbe-8250-e45275fe2266",
+    "timestamp":"2025-02-21T08:14:14.263823",
+    "amount":717.49,
+    "accountNumber":"FBIP11671902294131",
+    "transactionType":"withdrawal",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"47727b15-a799-488c-995d-347bbc5278e3",
+    "timestamp":"2025-02-28T04:00:09.589234",
+    "amount":1877.15,
+    "accountNumber":"FBIP11671902294131",
+    "transactionType":"transfer",
+    "score":0.71,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f69bfada-b1d7-415c-b484-f66cd93a2f42",
+    "timestamp":"2025-01-06T04:55:08.478525",
+    "amount":500.27,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"withdrawal",
+    "score":0.92,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"0afd13fc-9a5a-4bf9-adb0-93cb7a07e1a3",
+    "timestamp":"2025-01-21T05:28:04.197059",
+    "amount":67145.08,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"withdrawal",
+    "score":0.8,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"8c1416e2-b833-4a26-a974-4ea0b9900b44",
+    "timestamp":"2025-02-24T03:50:28.112917",
+    "amount":1362.19,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"purchase",
+    "score":0.98,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"d20a0955-a9bd-4a5a-846c-41270c0ee4de",
+    "timestamp":"2025-03-01T17:18:50.051847",
+    "amount":130.89,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"transfer",
+    "score":0.94,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"77657d68-267d-4cd9-b00f-d3e3885e15cf",
+    "timestamp":"2025-03-25T05:18:50.265545",
+    "amount":1000.5,
+    "accountNumber":"YSMP05466889373467",
+    "transactionType":"transfer",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"e30d7987-afb0-4aa3-a6f5-5baf23122e62",
+    "timestamp":"2025-01-24T05:36:46.057816",
+    "amount":1975.12,
+    "accountNumber":"HJDB36971179808932",
+    "transactionType":"transfer",
+    "score":0.94,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"13de0722-bd78-4b1f-902e-891b0589d00e",
+    "timestamp":"2025-01-17T05:14:55.378891",
+    "amount":1878.65,
+    "accountNumber":"IUZY99309728962309",
+    "transactionType":"deposit",
+    "score":0.78,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"0b8d3009-119a-4d83-9fd9-209cba46d535",
+    "timestamp":"2025-02-10T07:06:06.976042",
+    "amount":56613.44,
+    "accountNumber":"IUZY99309728962309",
+    "transactionType":"withdrawal",
+    "score":0.94,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"d963ecbd-cba8-4ddb-ab48-e527dc9de88e",
+    "timestamp":"2025-03-20T23:54:14.468980",
+    "amount":1040.6,
+    "accountNumber":"IUZY99309728962309",
+    "transactionType":"withdrawal",
+    "score":0.73,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"369c7ee0-1dfd-425e-bc81-b4c14ba82ef6",
+    "timestamp":"2025-01-21T06:19:00.516521",
+    "amount":1989.39,
+    "accountNumber":"PLZQ41616928451154",
+    "transactionType":"payment",
+    "score":0.96,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"db2d839e-2195-4ece-8643-2a4acf3ef758",
+    "timestamp":"2025-02-10T23:36:48.718335",
+    "amount":10058.97,
+    "accountNumber":"PLZQ41616928451154",
+    "transactionType":"withdrawal",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"bf53ed12-1d76-4160-9256-d5a2e2fbb02f",
+    "timestamp":"2025-01-07T10:26:01.768806",
+    "amount":1635.12,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"deposit",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"6d576d68-4c06-4a9d-9fb6-359deea93ccd",
+    "timestamp":"2025-01-07T11:25:34.497489",
+    "amount":1004.08,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"purchase",
+    "score":0.94,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"21257577-2b22-4607-a74d-2e00ac134d85",
+    "timestamp":"2025-01-09T20:30:50.786930",
+    "amount":1471.07,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"withdrawal",
+    "score":0.84,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"98c6e92a-3457-4430-bd02-1b51e15eee8a",
+    "timestamp":"2025-01-21T16:16:23.636259",
+    "amount":65693.9,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"withdrawal",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"1521b566-4e48-4447-9621-da75d240f844",
+    "timestamp":"2025-01-29T10:04:03.161456",
+    "amount":926.18,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"withdrawal",
+    "score":0.94,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"d6aca2da-44f4-4b2c-870f-da744147e65f",
+    "timestamp":"2025-02-10T21:58:33.570433",
+    "amount":865.49,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"purchase",
+    "score":0.77,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"965bfe1e-f705-40d2-9fa8-deb2913398d0",
+    "timestamp":"2025-02-16T08:52:46.977526",
+    "amount":1858.52,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"payment",
+    "score":0.71,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"b3b31a02-2518-4c27-9380-7f46efe79fd2",
+    "timestamp":"2025-02-28T01:34:59.274286",
+    "amount":1650.73,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"payment",
+    "score":0.76,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9f9d08b9-3e3d-4207-a464-a8fb867134b9",
+    "timestamp":"2025-03-10T10:21:02.122005",
+    "amount":1994.34,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"purchase",
+    "score":0.8,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"f078aff8-e815-4971-b360-5f5add1311be",
+    "timestamp":"2025-03-16T21:45:04.338434",
+    "amount":1038.61,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"purchase",
+    "score":0.96,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"fe998961-6457-4134-bd1b-8b728a9d76c4",
+    "timestamp":"2025-04-06T16:56:12.158320",
+    "amount":980.75,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"deposit",
+    "score":0.99,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"766a80fc-8a9f-41d0-882e-3ffb7b234b0b",
+    "timestamp":"2025-01-16T15:11:59.224745",
+    "amount":1088.44,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"deposit",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"6a882324-4925-42d5-a3f1-764cd7780b85",
+    "timestamp":"2025-03-06T17:28:51.410760",
+    "amount":1674.97,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"transfer",
+    "score":0.89,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9d9af3cf-c7d8-46f1-8eed-cdfe9e5531c7",
+    "timestamp":"2025-03-07T12:09:19.565187",
+    "amount":1774.91,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"deposit",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"60757589-a23f-4216-bf6f-b3bda228987b",
+    "timestamp":"2025-03-10T15:12:13.221018",
+    "amount":776.74,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"transfer",
+    "score":0.99,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"52324e9e-1452-4970-b784-d5c0ff1e63f5",
+    "timestamp":"2025-03-10T22:13:44.669348",
+    "amount":1132.97,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"purchase",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"dcd09d45-4a51-4d4f-ab3c-9fe4b4aabd3e",
+    "timestamp":"2025-04-04T22:27:45.202551",
+    "amount":90601.85,
+    "accountNumber":"JYJW37575844198665",
+    "transactionType":"transfer",
+    "score":0.98,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"ec28e4e1-51f2-463a-84a0-9a3d20cbce65",
+    "timestamp":"2025-01-17T07:50:27.268220",
+    "amount":1878.65,
+    "accountNumber":"IUZY99309728962309",
+    "transactionType":"deposit",
+    "score":0.73,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"42bca138-71fa-46ca-87fd-7645820bc7f7",
+    "timestamp":"2025-02-10T13:32:31.966782",
+    "amount":56613.44,
+    "accountNumber":"IUZY99309728962309",
+    "transactionType":"withdrawal",
+    "score":0.99,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"deb2d05a-338e-4457-a052-2aa25c7cd6cb",
+    "timestamp":"2025-03-21T12:31:46.262023",
+    "amount":1040.6,
+    "accountNumber":"IUZY99309728962309",
+    "transactionType":"withdrawal",
+    "score":0.75,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"eda4738f-edfb-4024-bcf7-0897e2acee71",
+    "timestamp":"2025-02-12T22:24:23.139805",
+    "amount":1967.95,
+    "accountNumber":"FBIM53755646417080",
+    "transactionType":"transfer",
+    "score":0.99,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"79a3f730-8780-4681-84ae-b7c5c4d06345",
+    "timestamp":"2025-01-08T05:45:02.076465",
+    "amount":86335.59,
+    "accountNumber":"ZZPG59774688623924",
+    "transactionType":"withdrawal",
+    "score":0.78,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"a6606826-0ceb-4cb5-aa32-8e2f35a37d0b",
+    "timestamp":"2025-01-20T02:57:39.289270",
+    "amount":429.46,
+    "accountNumber":"EIGF92127799799552",
+    "transactionType":"payment",
+    "score":0.73,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"4d01a0e0-a3f4-49b6-a03d-f3760110f807",
+    "timestamp":"2025-03-11T21:14:50.112960",
+    "amount":1395.91,
+    "accountNumber":"LDVH70985931746120",
+    "transactionType":"deposit",
+    "score":0.83,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"d1eed3f7-bac5-4a0c-b127-eb93b3ea6988",
+    "timestamp":"2025-04-07T23:43:22.443142",
+    "amount":1323.81,
+    "accountNumber":"LDVH70985931746120",
+    "transactionType":"purchase",
+    "score":0.92,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"ea85fbdf-8449-4af5-8cd9-dc4c56de66a1",
+    "timestamp":"2025-01-07T11:27:44.115637",
+    "amount":1635.12,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"deposit",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"48ce4a83-9f22-48b2-982f-28498567b537",
+    "timestamp":"2025-01-07T12:27:40.636389",
+    "amount":1004.08,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"purchase",
+    "score":0.88,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2bd48fa4-008e-4c9c-8a20-666b1aa9af18",
+    "timestamp":"2025-01-09T21:55:45.531777",
+    "amount":1471.07,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"withdrawal",
+    "score":0.85,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"2440292d-9365-47d0-b5af-56e82ce252ef",
+    "timestamp":"2025-01-21T19:34:41.131079",
+    "amount":65693.9,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"withdrawal",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"5d9733c9-81b8-44e5-b502-27e01dc568ff",
+    "timestamp":"2025-01-29T14:36:34.829355",
+    "amount":926.18,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"withdrawal",
+    "score":0.87,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f5c7cff6-57ff-46d7-b558-254211c1ec68",
+    "timestamp":"2025-02-11T04:30:55.146959",
+    "amount":865.49,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"purchase",
+    "score":0.78,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"a8b555ad-41bd-49d5-9e01-e686b112f980",
+    "timestamp":"2025-02-16T16:17:26.797823",
+    "amount":1858.52,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"payment",
+    "score":0.91,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"3d6a9f52-e6cb-4fa8-97dd-1c6f159d96c9",
+    "timestamp":"2025-02-28T10:51:48.587971",
+    "amount":1650.73,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"payment",
+    "score":0.7,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"f9d8e590-af15-4be7-9779-538a796b47b2",
+    "timestamp":"2025-03-17T09:43:23.047489",
+    "amount":1038.61,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"purchase",
+    "score":0.98,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"9c63f875-d27c-4605-99f8-fa8b9c36811c",
+    "timestamp":"2025-04-07T08:13:58.180097",
+    "amount":980.75,
+    "accountNumber":"DSQG27315851493689",
+    "transactionType":"deposit",
+    "score":0.86,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"33596015-e260-4297-92e8-e04d4ac9ec8f",
+    "timestamp":"2025-01-16T09:22:11.644107",
+    "amount":850.49,
+    "accountNumber":"USGW67632016328708",
+    "transactionType":"withdrawal",
+    "score":0.92,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"c50e33bf-b8b3-468d-88c8-369e25296daf",
+    "timestamp":"2025-02-05T00:24:49.872459",
+    "amount":850.28,
+    "accountNumber":"USGW67632016328708",
+    "transactionType":"purchase",
+    "score":0.92,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"45e1cf61-efd5-4b83-902e-8e395087279d",
+    "timestamp":"2025-03-15T11:09:08.236473",
+    "amount":861.96,
+    "accountNumber":"USGW67632016328708",
+    "transactionType":"payment",
+    "score":0.9,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"de3de2dc-2e10-4f79-a39e-087c66715e0f",
+    "timestamp":"2025-03-19T21:41:31.177241",
+    "amount":78953.63,
+    "accountNumber":"USGW67632016328708",
+    "transactionType":"withdrawal",
+    "score":0.81,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"70adf564-3a74-4d8d-941a-d9ec637ba76e",
+    "timestamp":"2025-03-15T22:30:58.629663",
+    "amount":1961.73,
+    "accountNumber":"YLFT91241904966319",
+    "transactionType":"deposit",
+    "score":0.72,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"4d49485f-777a-4dc7-b348-4e9bcc7f261b",
+    "timestamp":"2025-01-24T09:19:34.087551",
+    "amount":1975.12,
+    "accountNumber":"HJDB36971179808932",
+    "transactionType":"transfer",
+    "score":0.9,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"f944fecf-3057-401a-bafb-2766aa20029f",
+    "timestamp":"2025-01-06T16:49:23.536560",
+    "amount":1991.96,
+    "accountNumber":"ACXQ36675254599102",
+    "transactionType":"deposit",
+    "score":0.8,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"587be5b3-d57e-41e4-9639-dbc9bc871111",
+    "timestamp":"2025-01-26T10:10:47.047325",
+    "amount":16428.72,
+    "accountNumber":"TBVC47679764381561",
+    "transactionType":"withdrawal",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"aeb7b7e6-4198-4649-a471-d564d4fa25b4",
+    "timestamp":"2025-03-14T22:05:19.075767",
+    "amount":1956.08,
+    "accountNumber":"RETC14678669125177",
+    "transactionType":"purchase",
+    "score":0.95,
+    "reason":"High transaction amount (>95th percentile); Foreign transaction from high-risk country"
+  },
+  {
+    "id":"c68b9579-35a0-4fb7-aaa1-519317ab6bf1",
+    "timestamp":"2025-01-01T20:01:32.875523",
+    "amount":62109.17,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"withdrawal",
+    "score":0.92,
+    "reason":"Closing balance < \u20b91000; High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"ffe5ea3e-8d86-4aea-a2af-e8ac24d836cf",
+    "timestamp":"2025-01-02T19:24:48.718128",
+    "amount":756.04,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"withdrawal",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"65828169-9b5c-4475-af35-536e2f2efafa",
+    "timestamp":"2025-01-09T21:11:42.850649",
+    "amount":1760.87,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"payment",
+    "score":0.79,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"926e8f17-34e0-4684-8b76-a9d4b924c9da",
+    "timestamp":"2025-02-15T19:23:31.908448",
+    "amount":217.41,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"payment",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"b7f44348-01ea-4735-881f-324db9e3efd7",
+    "timestamp":"2025-03-23T22:08:21.566918",
+    "amount":1127.55,
+    "accountNumber":"MWHJ95788568557444",
+    "transactionType":"purchase",
+    "score":0.82,
+    "reason":"Closing balance < \u20b91000"
+  },
+  {
+    "id":"de7cf227-ab4b-4143-91b1-516b8d7e9397",
+    "timestamp":"2025-03-15T17:41:04.880474",
+    "amount":59105.31,
+    "accountNumber":"VZUE70289517187026",
+    "transactionType":"payment",
+    "score":0.79,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"01b5799a-097a-429d-9cc5-8773b004e022",
+    "timestamp":"2025-01-04T16:40:15.442358",
+    "amount":1030.22,
+    "accountNumber":"DHMS59440640909743",
+    "transactionType":"withdrawal",
+    "score":0.74,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"163ec3a0-bfd9-4dcb-a535-a2d10e2041e2",
+    "timestamp":"2025-02-14T11:29:09.188333",
+    "amount":1950.87,
+    "accountNumber":"JJFW25831323705895",
+    "transactionType":"withdrawal",
+    "score":0.83,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"c3485b1f-a882-4d7c-862c-9b8ea88dc0e0",
+    "timestamp":"2025-02-26T00:22:12.421836",
+    "amount":1997.18,
+    "accountNumber":"JJFW25831323705895",
+    "transactionType":"purchase",
+    "score":0.98,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"b2e354e4-75c8-4991-8ee2-78d4641015d8",
+    "timestamp":"2025-03-14T22:44:35.773765",
+    "amount":1972.34,
+    "accountNumber":"JJFW25831323705895",
+    "transactionType":"purchase",
+    "score":0.9,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"fdd0c4b3-d063-49ee-9ad2-29f8e38bde95",
+    "timestamp":"2025-02-08T06:56:18.335011",
+    "amount":298.96,
+    "accountNumber":"EZTA42284210205395",
+    "transactionType":"payment",
+    "score":0.97,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"c0a5c9fe-a1ea-45b9-8ed1-30e67fb87f75",
+    "timestamp":"2025-03-06T09:12:39.750320",
+    "amount":1212.99,
+    "accountNumber":"FYVO72217043030548",
+    "transactionType":"transfer",
+    "score":0.88,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"6e447c13-8946-4e10-8e97-252670f945ea",
+    "timestamp":"2025-04-02T05:10:34.579453",
+    "amount":50957.68,
+    "accountNumber":"PLRD81412478261375",
+    "transactionType":"withdrawal",
+    "score":0.79,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"34ed2289-fee4-427d-90b0-cd4778844021",
+    "timestamp":"2025-01-23T03:56:21.533912",
+    "amount":1949.22,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"payment",
+    "score":0.86,
+    "reason":"High transaction amount (>95th percentile)"
+  },
+  {
+    "id":"de82b42c-8beb-4c42-ab56-65261991359c",
+    "timestamp":"2025-02-27T08:08:12.922719",
+    "amount":906.85,
+    "accountNumber":"JAWR24008427109477",
+    "transactionType":"purchase",
+    "score":0.7,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"0b0f70bd-eda0-4e72-ad9a-47f87a977c73",
+    "timestamp":"2025-02-10T23:45:52.462928",
+    "amount":1878.2,
+    "accountNumber":"QJCI38424981829922",
+    "transactionType":"payment",
+    "score":0.79,
+    "reason":"Foreign transaction from high-risk country"
+  },
+  {
+    "id":"219d646e-4eed-4535-870d-263a39d187a7",
+    "timestamp":"2025-04-04T12:31:43.524324",
+    "amount":1753.4,
+    "accountNumber":"QJCI38424981829922",
+    "transactionType":"withdrawal",
+    "score":0.83,
+    "reason":"Blacklisted merchant"
+  },
+  {
+    "id":"325f096b-ad72-4ccf-ae2e-0bc1d518f4aa",
+    "timestamp":"2025-01-24T08:21:33.682577",
+    "amount":1950.29,
+    "accountNumber":"FSNU71756551256746",
+    "transactionType":"transfer",
+    "score":0.87,
+    "reason":"High transaction amount (>95th percentile)"
+  }
+]
