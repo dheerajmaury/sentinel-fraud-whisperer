@@ -60,7 +60,7 @@ def consume_topic(topic_name, schema, output_path):
         .format("parquet") \
         .option("path", output_path) \
         .option("checkpointLocation", output_path + "_chk") \
-        .outputMode("overwrite") \
+        .outputMode("append") \
         .start()
 
     return query
