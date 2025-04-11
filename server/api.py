@@ -266,7 +266,8 @@ import os
 import pandas as pd
 import json
 from datetime import datetime
-
+# from crud import insert_feedback_auto_reason
+from db import feedback_collection
 # Module imports
 from modules.combine import merge_parquet_to_csv
 from modules.transformation import enrich_with_historical_features
@@ -274,7 +275,7 @@ from modules.rule_based_fraud_detection import apply_rule_based_fraud_detection
 from modules.history import generate_account_level_history
 from modules.model import run_autoencoder_fraud_detection
 from modules.gemini_llm import generate_fraud_explanations
-
+from db import insert_feedback_auto_reason
 fraud_explanations_cache = []
 
 # Initialize FastAPI app
@@ -335,6 +336,13 @@ def load_fraud_explanations(path: str) -> list:
     except FileNotFoundError:
         print(f"⚠️ File not found: {path}")
         return []
+
+def update_cache_reason(transaction_id: str, new_reason: str):
+    for tx in fraud_explanations_cache:
+        if tx["id"] == transaction_id:
+            tx["reason"] = new_reason  # update directly
+            print(f"🧠 In-memory cache updated for {transaction_id} with: {new_reason}")
+            return
 
 def append_to_fraud_explanations(new_fraud_json_path: str, full_explanations_path: str):
     try:
@@ -415,15 +423,90 @@ async def get_transactions():
 system_feedback = []
 transaction_feedback = []
 
+
+# async def insert_feedback_auto_reason(feedback_dict):
+#     session = SessionLocal()
+
+#     # 1. Save feedback to DB
+#     feedback = FeedbackModel(
+#         transaction_id=feedback_dict["transaction_id"],
+#         is_correct=feedback_dict["is_correct"],
+#         feedback=feedback_dict.get("feedback")
+#     )
+#     session.merge(feedback)
+#     session.commit()
+
+#     # 2. If incorrect, regenerate and update
+#     if not feedback.is_correct:
+#         new_reason = regenerate_explanation_for_transaction(feedback.transaction_id)
+#         update_json_explanation(feedback.transaction_id, new_reason)
+#         print(f"♻️ Auto-regenerated and updated explanation for {feedback.transaction_id}")
+#     else:
+#         print(f"✅ Feedback marked correct for {feedback.transaction_id}, no action.")
+
+
+# @app.post("/api/feedback/transaction")
+# async def submit_feedback(feedback: TransactionFeedback):
+#     print("📩 Feedback endpoint hit with:", feedback.dict())
+#     await insert_feedback_auto_reason(feedback.dict())
+#     return {"success": True, "message": "Feedback saved with reason"}
+
+# @app.post("/api/feedback/transaction")
+# async def submit_feedback(feedback: TransactionFeedback):
+#     print("📩 Feedback endpoint hit with:", feedback.dict())
+#     await insert_feedback_auto_reason(feedback.dict())
+#     return {"success": True, "message": "Feedback saved with reason"}
+
+
 @app.post("/api/feedback/transaction")
-async def submit_transaction_feedback(feedback: TransactionFeedback):
-    transaction_feedback.append({
-        "transaction_id": feedback.transaction_id,
-        "is_correct": feedback.is_correct,
-        "feedback": feedback.feedback,
-        "timestamp": datetime.now().isoformat()
-    })
-    return {"success": True, "message": "Feedback submitted successfully"}
+async def submit_feedback(feedback: TransactionFeedback):
+    print("📩 Feedback endpoint hit with:", feedback.dict())
+
+    # Inject cache update logic
+    await insert_feedback_auto_reason(
+        feedback.dict(),
+        cache_updater=update_cache_reason  # 💥 add this
+    )
+
+    return {"success": True, "message": "Feedback saved with reason"}
+
+# @app.post("/api/feedback/transaction")
+# async def submit_feedback(feedback: TransactionFeedback):
+#     print("📩 Feedback endpoint hit with:", feedback.dict())
+#     try:
+#         await insert_feedback_auto_reason(
+#             feedback.dict(),
+#             cache_updater=update_cache_reason
+#         )
+#         return {"success": True, "message": "Feedback saved with reason"}
+#     except Exception as e:
+#         print(f"❌ Error in feedback submission: {e}")
+#         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/feedback/transaction/{transaction_id}", response_model=List[TransactionFeedback])
+async def get_feedback_by_transaction(transaction_id: str):
+    feedback_list = []
+    seen = set()
+
+    async for feedback in feedback_collection.find({"transaction_id": transaction_id}):
+        feedback["id"] = str(feedback["_id"])
+        del feedback["_id"]
+
+        # Key based on feedback content and correctness
+        feedback_key = (
+            feedback.get("feedback", "").strip().lower(),
+            feedback.get("is_correct", False)
+        )
+
+        if feedback_key not in seen:
+            seen.add(feedback_key)
+            feedback_list.append(feedback)
+
+    if not feedback_list:
+        raise HTTPException(status_code=404, detail="No feedback found for this transaction")
+
+    return feedback_list
+
 
 @app.post("/api/feedback/system")
 async def submit_system_feedback(feedback: FeedbackCreate):

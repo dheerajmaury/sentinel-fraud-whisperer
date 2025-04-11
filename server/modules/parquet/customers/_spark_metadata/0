@@ -1,2 +1,2 @@
 v1
-{"path":"file:///home/lumiq/clone-project3/sentinel-fraud-whisperer/server/modules/parquet/customers/part-00000-87b3f1f6-b3b6-459e-9923-d3d0e70ae777-c000.snappy.parquet","size":5141,"isDir":false,"modificationTime":1744285504313,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///home/lumiq/clone-project3/sentinel-fraud-whisperer/server/modules/parquet/customers/part-00000-877d3aae-ab8d-4d20-90ad-9c58542a9e27-c000.snappy.parquet","size":4189,"isDir":false,"modificationTime":1744358462032,"blockReplication":1,"blockSize":33554432,"action":"add"}
