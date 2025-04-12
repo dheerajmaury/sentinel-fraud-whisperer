@@ -6,7 +6,7 @@ from modules.regenerate import regenerate_explanation_for_transaction
 from modules.update_json import update_json_explanation
 from datetime import datetime
 
-MONGO_URL = "mongodb://localhost:27017"
+MONGO_URL = "Mongodb connection "
 client = AsyncIOMotorClient(MONGO_URL)
 db = client["feedback_db"]
 feedback_collection = db["feedback"]

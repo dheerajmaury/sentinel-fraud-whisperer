@@ -158,7 +158,7 @@
 #     merged = top_unique_accounts.merge(account_history, on="account_id", how="left", suffixes=('', '_history'))
 
 #     # Configure Gemini client
-#     genai.configure(api_key="AIzaSyATqKAkoqv0mhisZxRXeC9OY0Jy0e2_Fn8")  # Replace with your actual API key
+#     genai.configure(api_key="your_api_key_here")  # Replace with your actual API key
 #     model = genai.GenerativeModel("gemini-1.5-pro")
 
 #     def get_explanation(row):
@@ -251,7 +251,7 @@
 
 
 #     # Configure Gemini client
-#     genai.configure(api_key="AIzaSyATqKAkoqv0mhisZxRXeC9OY0Jy0e2_Fn8")  # Replace with your actual API key
+#     genai.configure(api_key="your_api_key_here")  # Replace with your actual API key
 #     model = genai.GenerativeModel("gemini-1.5-pro")
 
 #     def get_explanation(row):
@@ -339,7 +339,7 @@ def generate_fraud_explanations():
     merged = top_unique_accounts.merge(account_history, on="account_id", how="left", suffixes=('', '_history'))
 
     # Configure Gemini client
-    genai.configure(api_key="AIzaSyDMCDieW8vz_-JF50FUZCBcxy2azn7LwkI")  # Replace with actual API key
+    genai.configure(api_key="your_api_key_here")  # Replace with actual API key
     model = genai.GenerativeModel("gemini-1.5-pro")
 
     def get_explanation(row):

@@ -33,7 +33,7 @@ def generate_fraud_explanations():
     merged = merged.sort_values(by="score", ascending=False).head(20)
 
     # Configure Gemini client
-    genai.configure(api_key="AIzaSyAzbPW3BCNK1hSdiunxpkHLGzFVWrBAfyY")  # Replace with your actual API key
+    genai.configure(api_key="your_api_key_here")  # Replace with your actual API key
     model = genai.GenerativeModel("gemini-1.5-pro")
 
     def get_explanation(row):

@@ -3,7 +3,7 @@ import pandas as pd
 import google.generativeai as genai
 from pathlib import Path
 
-genai.configure(api_key="AIzaSyDMCDieW8vz_-JF50FUZCBcxy2azn7LwkI")
+genai.configure(api_key="your_api_key_here")
 model = genai.GenerativeModel("gemini-1.5-pro")
 
 def regenerate_explanation_for_transaction(transaction_id: str, reviewer_feedback: str = "") -> str:
